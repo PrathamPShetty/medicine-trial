@@ -85,17 +85,15 @@ contract RBAC {
         emit RoleAssigned(_user, assignedRole);
     }
 
-    function getAllRoleRequests() external view onlyRole(Role.Admin) onlyDeployer returns (address[] memory, Role[] memory) {
+    function getAllRoleRequests() public view  returns (address[] memory, Role[] memory) {
     uint count = 0;
 
-    // Count pending requests
     for (uint i = 0; i < registeredUsers.length; i++) {
         if (roleRequests[registeredUsers[i]].isPending) {
             count++;
         }
     }
 
-    // Store results
     address[] memory usersWithRequests = new address[](count);
     Role[] memory requestedRoles = new Role[](count);
     uint index = 0;
@@ -129,7 +127,6 @@ contract RBAC {
         return (user.name, user.physicalAddress, user.walletAddress, user.role, user.isRegistered);
     }
 
-    // ✅ MOVE getUsersByRole ABOVE getCompanies, getDoctors, etc.
     function getUsersByRole(Role _role) public view returns (address[] memory) {
         address[] memory tempUsers = new address[](registeredUsers.length);
         uint count = 0;
@@ -149,7 +146,6 @@ contract RBAC {
         return filteredUsers;
     }
 
-    // ✅ Now these functions will recognize getUsersByRole
     function getCompanies() external view returns (address[] memory) {
         return getUsersByRole(Role.Company);
     }
@@ -165,4 +161,16 @@ contract RBAC {
     function getAuditors() external view returns (address[] memory) {
         return getUsersByRole(Role.Auditor);
     }
+
+
+    function getPendingRequestsCount() public view returns (uint) {
+    uint count = 0;
+    for (uint i = 0; i < registeredUsers.length; i++) {
+        if (roleRequests[registeredUsers[i]].isPending) {
+            count++;
+        }
+    }
+    return count;
+}
+
 }

@@ -29,7 +29,13 @@ export class BlankComponent implements OnInit {
     // Fetch company name
     this.companyService.getCompanyName().subscribe({
       next: (data) => {
-        this.companyData = data;
+        this.companyData =  {
+          id:1,
+          name: "TechCorp",
+          industry: "Software Development",
+          location: "San Francisco, CA"
+      };
+
       },
       error: (err) => {
         console.error('Error fetching company name:', err);
@@ -48,7 +54,7 @@ export class BlankComponent implements OnInit {
   }
 
   handleClickRequests() {
-    this.router.navigate(['/company-products']);
+    this.router.navigate(['/role-based']);
   }
 
 

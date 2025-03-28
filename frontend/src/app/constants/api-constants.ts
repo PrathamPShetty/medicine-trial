@@ -4,4 +4,7 @@ export const REGISTER = 'registerUser';
 export const LOGIN = 'login';
 export const companyName = 'getname/company';
 export const PRODUCTS = 'getname/product'
-export const REQUESTS = 'pending-'
+export const REQUESTS = 'pendingRequests'
+
+
+export const GATEWAY = "https://gateway.pinata.cloud/ipfs/";

@@ -15,6 +15,6 @@ export class CompanyComponent {
   constructor(private router: Router) {}
 
   navigateToDetails(companyId: string) {
-    this.router.navigate(['/company-products', companyId]);
+    this.router.navigate(['/company-products']);
   }
 }

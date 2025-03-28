@@ -209,8 +209,13 @@
     
                 </nav>
           
+
+                <h1 class="heading">Products</h1>
+<div class="container">
+    <app-card *ngFor="let card of cards" [title]="card.title"></app-card>
+</div>
     
-             <app-company [companyData]="companyData" ><app-company/>
+             <app-request><app-request/>
     
             </div>
           

@@ -21,9 +21,9 @@ app.add_middleware(
 )
 
 load_dotenv()
-w3 = Web3(Web3.HTTPProvider(os.getenv("RPC_URL")))
+w3 = Web3(Web3.HTTPProvider("http://0.0.0.0:8545"))
 account = os.getenv("ACCOUNT_ADDRESS")
-PRIVATE_KEY = "0xf305aa0d2ae3c41a7c291a50e077402c59583e922a3662e78c629a5f825ded95"
+PRIVATE_KEY =os.getenv("PRIVATE_KEY")
 CHAIN_ID = int(os.getenv("CHAIN_ID"))
 
 # Load ABIs & Contract Addresses
@@ -34,9 +34,9 @@ with open('./artifacts/contracts/ProductRegistry.sol/ProductRegistry.json') as f
 with open('./artifacts/contracts/TrialManager.sol/TrialManager.json') as f:
     trial = json.load(f)
 
-RBAC_ADDRESS = "0x188f62f9Db178CE39C683eA9b3a7b26081BF4139"
-PRODUCT_ADDRESS = "0x22FFb296507751759eDe9a3108e14CC21c0b62ae"
-TRIAL_ADDRESS = "0x04Ca43FB8bac4cd63BA4aE12d65E0086F4828912"
+RBAC_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+PRODUCT_ADDRESS = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+TRIAL_ADDRESS = "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
 
 rbac_contract = w3.eth.contract(address=RBAC_ADDRESS, abi=rbac['abi'])
 product_contract = w3.eth.contract(address=PRODUCT_ADDRESS, abi=product['abi'])
@@ -110,11 +110,12 @@ async def get_user_role(data: dict):
         logger.error(f"Error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/api/v1/request-role")
+@app.post("/api/v1/requestRole")
 async def request_role(data: RequestRoleSchema):
     """ Request a new role """
     try:
         nonce = w3.eth.get_transaction_count(data.user)
+        logger.debug(f"Received Data: {data.user}")
         
         txn = rbac_contract.functions.requestRole(data.role).build_transaction({
             'from': data.user,
@@ -122,13 +123,12 @@ async def request_role(data: RequestRoleSchema):
             'gasPrice': w3.to_wei('10', 'gwei'),
             'nonce': nonce
         })
-        
-        signed_txn = w3.eth.account.sign_transaction(txn, private_key=PRIVATE_KEY)
-        tx_hash = w3.eth.send_raw_transaction(signed_txn.rawTransaction)
-        
-        receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 
-        return {"message": "Role requested", "tx_hash": tx_hash.hex(), "receipt": receipt}
+        logger.debug(f"Received Data: {txn}")
+
+        
+
+        return {"message": "Role requested"}
     
     except Exception as e:
         logger.error(f"Error: {e}")
@@ -174,35 +174,68 @@ async def get_pending_request(user_address: str):
         logger.error(f"Error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+
+ROLE_MAPPING = ["none", "admin", "company", "doctor", "auditor", "patient"]
+
 @app.get("/api/v1/getname/{role}")
 async def get_users_by_role(role: str):
     """Fetch users by role"""
     try:
-        if role.lower() not in ROLE_MAPPING:
+        role = role.lower()
+        if role not in ROLE_MAPPING:
             raise HTTPException(status_code=400, detail="Invalid role")
 
-        role_id = ROLE_MAPPING[role.lower()]
-        users = rbac_contract.functions.getUsersByRole(role_id).call()
+        role_id = ROLE_MAPPING.index(role)  # Convert role name to enum index
+        users = rbac_contract.functions.getUsersRole(role_id).call()
         return {"role": role, "users": users}
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.get("/api/v1/pending-requests")
+@app.get("/api/v1/pendingRequests")
 async def get_pending_requests():
     """ Fetch all pending role requests """
     try:
+        sender_address = "0xdb7ac99c12b4c151ADdf73802E1d479109Bb189f"
+
         users, requested_roles = rbac_contract.functions.getAllRoleRequests().call()
 
+        logging.debug(f"Users: {users}, Requested Roles: {requested_roles}")
+
+
+        # if not users:
+        #     return {"pendingRequests": []}  # Return empty list if no pending requests
+
         role_requests = [
-            {"user": users[i], "requestedRole": requested_roles[i]}
+            {"user": users[i], "requestedRole": str(requested_roles[i])}  # Convert Role enum to string
             for i in range(len(users))
         ]
+        
+        logger.info(f"Role requests: {role_requests}")
         return {"pendingRequests": role_requests}
 
     except Exception as e:
+        logger.error(f"Error fetching role requests: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/v1/pendingRequestsCount")
+async def get_pending_requests_count():
+    """ Fetch all pending role requests """
+    try:
+
+        usersCount = rbac_contract.functions.getPendingRequestsCount().call()
+
+        logging.debug(f"Users: {usersCount}")
+
+
+    
+        return {"pendingRequests": usersCount}
+
+    except Exception as e:
+        logger.error(f"Error fetching role requests: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 
 ### ------------------------- PRODUCT ROUTES ------------------------- ###

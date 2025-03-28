@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 })
 export class CompanyProductsComponent {
   companyProductData: string = '';
+  title: any;
   constructor(private companyService: CompanyService,private router: Router) {}
 
   ngOnInit() {
@@ -21,6 +22,10 @@ export class CompanyProductsComponent {
         console.error('Error fetching company name:', err);
       }
     });
+  }
+
+  viewTrials() {
+    console.log(`Viewing trials for ${this.title}`);
   }
 
 }
