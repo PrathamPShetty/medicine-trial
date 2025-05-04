@@ -86,7 +86,7 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 
 Access API at: [http://localhost:8000/docs](http://localhost:8000/docs)
 
-![FastAPI Output](./assets/fastapi.png)
+![FastAPI Output](./assets/backend.jpg)
 
 ---
 
@@ -109,7 +109,9 @@ npx hardhat test
 npx ganache-cli --deterministic
 ```
 
-![Hardhat Output](./assets/hardhat.png)
+![Hardhat Output](./assets/ganache.jpg)
+![Hardhat Output](./assets/transaction.jpg)
+
 
 ---
 
@@ -122,7 +124,7 @@ cd ../frontend
 npm install
 ```
 
-![Frontend Install Output](./assets/frontend-install.png)
+![Frontend Install Output](./assets/frontend.jpg)
 
 ---
 
@@ -134,7 +136,7 @@ ng serve
 
 Navigate to: [http://localhost:4200](http://localhost:4200)
 
-![Angular Output](./assets/angular.png)
+![Angular Output](./assets/login.jpg)
 
 ---
 
