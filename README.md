@@ -63,7 +63,7 @@ pip install -r requirements.txt
 npm install
 ```
 
-![Backend Install Output](./assets/1.jpg)
+![Backend Install Output](./assets/1.png)
 
 ---
 
