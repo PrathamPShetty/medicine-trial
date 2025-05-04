@@ -31,9 +31,10 @@ medicine-trial/
 │   ├── angular.json
 │   ├── package.json
 │   └── ...
-├── ml-model/
-│   └── (Your ML-related files)
+├── ai model/
+│   └── app.py
 └── README.md
+
 
 ````
 
@@ -165,7 +166,7 @@ Place model-related Python files under `/ml-model`.
 
 ## 👩‍💻 Contributors
 
-* Ananya Udupa
+
 * \[Add your team members here]
 
 ---
@@ -175,9 +176,4 @@ Place model-related Python files under `/ml-model`.
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-> 📌 Replace image placeholders (`./assets/*.png`) with actual screenshots from your installation and setup steps.
-
-```
-
 
