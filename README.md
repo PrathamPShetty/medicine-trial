@@ -62,7 +62,7 @@ pip install -r requirements.txt
 npm install
 ```
 
-![Backend Install Output](./assets/backend.jpg)
+![Backend Install Output](./assets/1.jpg)
 
 ---
 
@@ -124,7 +124,7 @@ cd ../frontend
 npm install
 ```
 
-![Frontend Install Output](./assets/frontend.jpg)
+
 
 ---
 
@@ -135,7 +135,7 @@ ng serve
 ```
 
 Navigate to: [http://localhost:4200](http://localhost:4200)
-
+![Frontend Install Output](./assets/frontend.jpg)
 ![Angular Output](./assets/login.jpg)
 
 ---
