@@ -66,19 +66,10 @@ npm install
 
 ---
 
-### ✅ Step 2: Download NLTK Model
-
-```python
-python
->>> import nltk
->>> nltk.download('punkt')
-```
-
-![NLTK Output](./assets/nltk-download.png)
 
 ---
 
-### ✅ Step 3: Start FastAPI server
+### ✅ Step 2: Start FastAPI server
 
 ```bash
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
@@ -90,7 +81,7 @@ Access API at: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-### ✅ Step 4: Deploy Smart Contract using Hardhat
+### ✅ Step 3: Deploy Smart Contract using Hardhat
 
 ```bash
 npx hardhat node
@@ -147,12 +138,12 @@ Ensure NLTK is installed and punkt tokenizer is downloaded.
 ```bash
 pip install nltk
 ```
-
+![nltk Output](./assets/nltk.jpg)
 ```python
 import nltk
 nltk.download('punkt')
 ```
-
+![punkt Output](./assets/punkt.jpg)
 Place model-related Python files under `/ml-model`.
 
 ---
