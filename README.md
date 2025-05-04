@@ -45,7 +45,7 @@ medicine-trial/
 ### 📦 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/medicine-trial.git
+https://github.com/PrathamPShetty/medicine-trial.git
 cd medicine-trial
 ````
 
