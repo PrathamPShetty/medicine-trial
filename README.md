@@ -195,8 +195,6 @@ prediction = model.predict(sample)
 print("Prediction:", "Unhealthy" if prediction[0] == 1 else "Healthy")
 ```
 
-![NLP Output](./assets/nlp1.jpg)
-![NLP Output](./assets/nlp2.jpg)
 
 ---
 
