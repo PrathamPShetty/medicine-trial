@@ -1,8 +1,4 @@
-Here is the full `README.md` content tailored for your `medicine-trial` project, covering both frontend and backend setups, image placeholders for outputs, and all relevant steps in one go:
 
----
-
-```markdown
 # 💊 Medicine Trial Platform
 
 A full-stack decentralized application to manage and track medical trials securely using blockchain and machine learning.
@@ -66,7 +62,7 @@ pip install -r requirements.txt
 npm install
 ```
 
-![Backend Install Output](./assets/backend-install.png)
+![Backend Install Output](./assets/backend.jpg)
 
 ---
 
@@ -187,7 +183,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ```
 
----
 
-Let me know if you'd like this saved and shared as a downloadable `.md` file.
-```
