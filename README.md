@@ -129,6 +129,12 @@ ng serve
 Navigate to: [http://localhost:4200](http://localhost:4200)
 ![Frontend Install Output](./assets/frontend.jpg)
 ![Angular Output](./assets/login.jpg)
+### Dashboard
+![Dashboard](./assets/dash.jpg)
+![Dashboard](./assets/dash1.jpg)
+![Dashboard](./assets/dash2.jpg)
+![Dashboard](./assets/dash3.jpg)
+![Dashboard](./assets/dash4.jpg)
 
 ---
 
