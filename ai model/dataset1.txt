@@ -1,0 +1,182 @@
+Patient aged 28 has a BP of 115/75 mmHg, glucose at 85 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 45 with BP of 125/82 mmHg, glucose levels at 110 mg/dL, heart rate of 88 BPM, and SpO2 at 96%. No diseases reported. | Unhealthy
+Patient aged 32 has BP of 132/86 mmHg, glucose at 95 mg/dL, heart rate of 78 BPM, and SpO2 at 97%. Diagnosed with hypertension. | Unhealthy
+Patient aged 60 with BP of 118/77 mmHg, glucose at 102 mg/dL, heart rate of 65 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 22 has BP of 110/70 mmHg, glucose at 88 mg/dL, heart rate of 105 BPM, and SpO2 at 99%. No diseases reported. | Unhealthy
+Patient aged 38 with BP of 140/92 mmHg, glucose at 128 mg/dL, heart rate of 82 BPM, and SpO2 at 93%. Diagnosed with diabetes. | Unhealthy
+Patient aged 29 has BP of 118/76 mmHg, glucose at 92 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 51 with BP of 128/84 mmHg, glucose at 115 mg/dL, heart rate of 92 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 63 has BP of 135/88 mmHg, glucose at 98 mg/dL, heart rate of 72 BPM, and SpO2 at 96%. No diseases reported. | Unhealthy
+Patient aged 24 with BP of 122/79 mmHg, glucose at 85 mg/dL, heart rate of 58 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 42 has BP of 118/77 mmHg, glucose at 130 mg/dL, heart rate of 76 BPM, and SpO2 at 98%. Diagnosed with diabetes. | Unhealthy
+Patient aged 35 with BP of 110/72 mmHg, glucose at 92 mg/dL, heart rate of 82 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 57 has BP of 142/94 mmHg, glucose at 105 mg/dL, heart rate of 78 BPM, and SpO2 at 94%. Diagnosed with hypertension. | Unhealthy
+Patient aged 31 with BP of 116/75 mmHg, glucose at 89 mg/dL, heart rate of 112 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 48 has BP of 130/85 mmHg, glucose at 118 mg/dL, heart rate of 84 BPM, and SpO2 at 96%. Diagnosed with prediabetes. | Unhealthy
+Patient aged 26 with BP of 120/80 mmHg, glucose at 93 mg/dL, heart rate of 68 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 53 has BP of 138/90 mmHg, glucose at 126 mg/dL, heart rate of 88 BPM, and SpO2 at 92%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 39 with BP of 118/76 mmHg, glucose at 84 mg/dL, heart rate of 72 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 61 has BP of 125/82 mmHg, glucose at 101 mg/dL, heart rate of 74 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 27 with BP of 112/73 mmHg, glucose at 68 mg/dL, heart rate of 76 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 44 has BP of 128/83 mmHg, glucose at 107 mg/dL, heart rate of 92 BPM, and SpO2 at 96%. No diseases reported. | Unhealthy
+Patient aged 33 with BP of 118/77 mmHg, glucose at 94 mg/dL, heart rate of 65 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 59 has BP of 136/89 mmHg, glucose at 115 mg/dL, heart rate of 82 BPM, and SpO2 at 93%. Diagnosed with hypertension. | Unhealthy
+Patient aged 23 with BP of 108/70 mmHg, glucose at 87 mg/dL, heart rate of 102 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 36 has BP of 122/80 mmHg, glucose at 96 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 50 with BP of 144/95 mmHg, glucose at 132 mg/dL, heart rate of 88 BPM, and SpO2 at 91%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 30 has BP of 115/75 mmHg, glucose at 90 mg/dL, heart rate of 78 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 55 with BP of 130/85 mmHg, glucose at 108 mg/dL, heart rate of 72 BPM, and SpO2 at 94%. No diseases reported. | Unhealthy
+Patient aged 25 has BP of 120/80 mmHg, glucose at 85 mg/dL, heart rate of 68 BPM, and SpO2 at 97%. No symptoms or diseases reported. | Healthy
+Patient aged 47 with BP of 134/87 mmHg, glucose at 122 mg/dL, heart rate of 84 BPM, and SpO2 at 96%. Diagnosed with diabetes. | Unhealthy
+Patient aged 32 has BP of 118/76 mmHg, glucose at 92 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 62 with BP of 142/93 mmHg, glucose at 104 mg/dL, heart rate of 76 BPM, and SpO2 at 92%. Diagnosed with hypertension. | Unhealthy
+Patient aged 29 with BP of 110/72 mmHg, glucose at 67 mg/dL, heart rate of 80 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 41 has BP of 126/82 mmHg, glucose at 113 mg/dL, heart rate of 90 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 34 with BP of 117/77 mmHg, glucose at 91 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 58 has BP of 138/90 mmHg, glucose at 127 mg/dL, heart rate of 82 BPM, and SpO2 at 93%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 24 with BP of 112/74 mmHg, glucose at 88 mg/dL, heart rate of 108 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 37 has BP of 120/80 mmHg, glucose at 95 mg/dL, heart rate of 72 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 52 with BP of 132/86 mmHg, glucose at 118 mg/dL, heart rate of 78 BPM, and SpO2 at 94%. Diagnosed with prediabetes. | Unhealthy
+Patient aged 31 has BP of 116/75 mmHg, glucose at 89 mg/dL, heart rate of 76 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 64 with BP of 145/94 mmHg, glucose at 102 mg/dL, heart rate of 84 BPM, and SpO2 at 91%. Diagnosed with hypertension. | Unhealthy
+Patient aged 26 with BP of 118/77 mmHg, glucose at 86 mg/dL, heart rate of 62 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 43 has BP of 124/81 mmHg, glucose at 124 mg/dL, heart rate of 88 BPM, and SpO2 at 96%. Diagnosed with diabetes. | Unhealthy
+Patient aged 35 with BP of 119/78 mmHg, glucose at 93 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 56 has BP of 136/88 mmHg, glucose at 109 mg/dL, heart rate of 80 BPM, and SpO2 at 92%. Diagnosed with hypertension. | Unhealthy
+Patient aged 28 with BP of 114/74 mmHg, glucose at 84 mg/dL, heart rate of 98 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 40 has BP of 122/80 mmHg, glucose at 97 mg/dL, heart rate of 72 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 54 with BP of 140/92 mmHg, glucose at 128 mg/dL, heart rate of 86 BPM, and SpO2 at 93%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 33 has BP of 117/76 mmHg, glucose at 90 mg/dL, heart rate of 70 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 60 with BP of 134/87 mmHg, glucose at 105 mg/dL, heart rate of 82 BPM, and SpO2 at 94%. No diseases reported. | Unhealthy
+Patient aged 27 has BP of 112/73 mmHg, glucose at 69 mg/dL, heart rate of 74 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 46 with BP of 126/83 mmHg, glucose at 115 mg/dL, heart rate of 92 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 38 has BP of 121/79 mmHg, glucose at 94 mg/dL, heart rate of 76 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 57 with BP of 142/94 mmHg, glucose at 122 mg/dL, heart rate of 84 BPM, and SpO2 at 91%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 25 with BP of 118/76 mmHg, glucose at 87 mg/dL, heart rate of 104 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 42 has BP of 124/80 mmHg, glucose at 96 mg/dL, heart rate of 74 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 59 with BP of 138/90 mmHg, glucose at 126 mg/dL, heart rate of 88 BPM, and SpO2 at 92%. Diagnosed with diabetes. | Unhealthy
+Patient aged 30 has BP of 115/75 mmHg, glucose at 91 mg/dL, heart rate of 78 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 53 with BP of 132/85 mmHg, glucose at 108 mg/dL, heart rate of 76 BPM, and SpO2 at 94%. No diseases reported. | Unhealthy
+Patient aged 24 has BP of 110/70 mmHg, glucose at 85 mg/dL, heart rate of 66 BPM, and SpO2 at 97%. No symptoms or diseases reported. | Healthy
+Patient aged 49 with BP of 136/88 mmHg, glucose at 118 mg/dL, heart rate of 82 BPM, and SpO2 at 93%. Diagnosed with hypertension. | Unhealthy
+Patient aged 32 has BP of 119/77 mmHg, glucose at 92 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 61 with BP of 144/95 mmHg, glucose at 103 mg/dL, heart rate of 80 BPM, and SpO2 at 90%. Diagnosed with hypertension. | Unhealthy
+Patient aged 28 with BP of 113/74 mmHg, glucose at 65 mg/dL, heart rate of 82 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 45 has BP of 128/83 mmHg, glucose at 112 mg/dL, heart rate of 94 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 36 with BP of 120/80 mmHg, glucose at 95 mg/dL, heart rate of 74 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 58 has BP of 140/92 mmHg, glucose at 124 mg/dL, heart rate of 86 BPM, and SpO2 at 91%. Diagnosed with diabetes. | Unhealthy
+Patient aged 23 with BP of 108/70 mmHg, glucose at 88 mg/dL, heart rate of 106 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 39 has BP of 122/79 mmHg, glucose at 93 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 55 with BP of 134/86 mmHg, glucose at 116 mg/dL, heart rate of 78 BPM, and SpO2 at 93%. Diagnosed with prediabetes. | Unhealthy
+Patient aged 31 has BP of 116/75 mmHg, glucose at 89 mg/dL, heart rate of 76 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 62 with BP of 146/96 mmHg, glucose at 101 mg/dL, heart rate of 88 BPM, and SpO2 at 89%. Diagnosed with hypertension. | Unhealthy
+Patient aged 26 with BP of 117/76 mmHg, glucose at 84 mg/dL, heart rate of 60 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 44 has BP of 130/84 mmHg, glucose at 123 mg/dL, heart rate of 90 BPM, and SpO2 at 94%. Diagnosed with diabetes. | Unhealthy
+Patient aged 37 with BP of 121/78 mmHg, glucose at 94 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 56 has BP of 142/93 mmHg, glucose at 107 mg/dL, heart rate of 82 BPM, and SpO2 at 92%. Diagnosed with hypertension. | Unhealthy
+Patient aged 29 with BP of 114/74 mmHg, glucose at 83 mg/dL, heart rate of 100 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 48 has BP of 126/82 mmHg, glucose at 97 mg/dL, heart rate of 72 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 63 with BP of 148/97 mmHg, glucose at 129 mg/dL, heart rate of 90 BPM, and SpO2 at 88%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 34 has BP of 118/77 mmHg, glucose at 90 mg/dL, heart rate of 68 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 52 with BP of 130/85 mmHg, glucose at 104 mg/dL, heart rate of 76 BPM, and SpO2 at 94%. No diseases reported. | Unhealthy
+Patient aged 25 has BP of 112/73 mmHg, glucose at 86 mg/dL, heart rate of 72 BPM, and SpO2 at 97%. No symptoms or diseases reported. | Healthy
+Patient aged 50 with BP of 138/89 mmHg, glucose at 115 mg/dL, heart rate of 84 BPM, and SpO2 at 93%. Diagnosed with hypertension. | Unhealthy
+Patient aged 33 has BP of 120/80 mmHg, glucose at 93 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 59 with BP of 144/95 mmHg, glucose at 121 mg/dL, heart rate of 88 BPM, and SpO2 at 90%. Diagnosed with diabetes. | Unhealthy
+Patient aged 27 with BP of 115/75 mmHg, glucose at 66 mg/dL, heart rate of 80 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 46 has BP of 128/83 mmHg, glucose at 110 mg/dL, heart rate of 96 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 38 with BP of 122/79 mmHg, glucose at 95 mg/dL, heart rate of 76 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 57 has BP of 140/92 mmHg, glucose at 125 mg/dL, heart rate of 86 BPM, and SpO2 at 91%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 24 with BP of 110/70 mmHg, glucose at 87 mg/dL, heart rate of 104 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 43 has BP of 124/80 mmHg, glucose at 96 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 60 with BP of 136/88 mmHg, glucose at 124 mg/dL, heart rate of 82 BPM, and SpO2 at 92%. Diagnosed with diabetes. | Unhealthy
+Patient aged 30 has BP of 116/75 mmHg, glucose at 91 mg/dL, heart rate of 78 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 54 with BP of 132/85 mmHg, glucose at 106 mg/dL, heart rate of 72 BPM, and SpO2 at 94%. No diseases reported. | Unhealthy
+Patient aged 23 has BP of 108/70 mmHg, glucose at 84 mg/dL, heart rate of 64 BPM, and SpO2 at 97%. No symptoms or diseases reported. | Healthy
+Patient aged 51 with BP of 134/86 mmHg, glucose at 117 mg/dL, heart rate of 80 BPM, and SpO2 at 93%. Diagnosed with hypertension. | Unhealthy
+Patient aged 35 has BP of 119/78 mmHg, glucose at 92 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 62 with BP of 146/96 mmHg, glucose at 102 mg/dL, heart rate of 84 BPM, and SpO2 at 89%. Diagnosed with hypertension. | Unhealthy
+Patient aged 28 with BP of 113/74 mmHg, glucose at 64 mg/dL, heart rate of 82 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 47 has BP of 126/82 mmHg, glucose at 111 mg/dL, heart rate of 94 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 36 with BP of 120/80 mmHg, glucose at 95 mg/dL, heart rate of 74 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 58 has BP of 142/93 mmHg, glucose at 123 mg/dL, heart rate of 88 BPM, and SpO2 at 90%. Diagnosed with diabetes. | Unhealthy
+Patient aged 22 with BP of 106/68 mmHg, glucose at 88 mg/dL, heart rate of 108 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 40 has BP of 122/80 mmHg, glucose at 94 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 56 with BP of 136/87 mmHg, glucose at 114 mg/dL, heart rate of 78 BPM, and SpO2 at 93%. Diagnosed with prediabetes. | Unhealthy
+Patient aged 32 has BP of 118/77 mmHg, glucose at 89 mg/dL, heart rate of 76 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 63 with BP of 148/97 mmHg, glucose at 100 mg/dL, heart rate of 90 BPM, and SpO2 at 88%. Diagnosed with hypertension. | Unhealthy
+Patient aged 26 with BP of 117/76 mmHg, glucose at 83 mg/dL, heart rate of 58 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 45 has BP of 130/84 mmHg, glucose at 122 mg/dL, heart rate of 92 BPM, and SpO2 at 94%. Diagnosed with diabetes. | Unhealthy
+Patient aged 37 with BP of 121/78 mmHg, glucose at 93 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 55 has BP of 144/95 mmHg, glucose at 105 mg/dL, heart rate of 82 BPM, and SpO2 at 91%. Diagnosed with hypertension. | Unhealthy
+Patient aged 29 with BP of 114/74 mmHg, glucose at 82 mg/dL, heart rate of 98 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 49 has BP of 128/82 mmHg, glucose at 97 mg/dL, heart rate of 72 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 64 with BP of 150/98 mmHg, glucose at 128 mg/dL, heart rate of 92 BPM, and SpO2 at 87%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 34 has BP of 118/77 mmHg, glucose at 90 mg/dL, heart rate of 68 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 53 with BP of 132/86 mmHg, glucose at 103 mg/dL, heart rate of 76 BPM, and SpO2 at 94%. No diseases reported. | Unhealthy
+Patient aged 25 has BP of 112/73 mmHg, glucose at 85 mg/dL, heart rate of 70 BPM, and SpO2 at 97%. No symptoms or diseases reported. | Healthy
+Patient aged 52 with BP of 138/89 mmHg, glucose at 113 mg/dL, heart rate of 84 BPM, and SpO2 at 93%. Diagnosed with hypertension. | Unhealthy
+Patient aged 33 has BP of 120/80 mmHg, glucose at 93 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 59 with BP of 146/96 mmHg, glucose at 120 mg/dL, heart rate of 88 BPM, and SpO2 at 89%. Diagnosed with diabetes. | Unhealthy
+Patient aged 27 with BP of 115/75 mmHg, glucose at 65 mg/dL, heart rate of 80 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 48 has BP of 126/83 mmHg, glucose at 109 mg/dL, heart rate of 96 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 38 with BP of 122/79 mmHg, glucose at 94 mg/dL, heart rate of 76 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 57 has BP of 142/94 mmHg, glucose at 124 mg/dL, heart rate of 86 BPM, and SpO2 at 90%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 24 with BP of 110/70 mmHg, glucose at 86 mg/dL, heart rate of 106 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 44 has BP of 124/80 mmHg, glucose at 96 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 61 with BP of 136/88 mmHg, glucose at 123 mg/dL, heart rate of 82 BPM, and SpO2 at 91%. Diagnosed with diabetes. | Unhealthy
+Patient aged 30 has BP of 116/75 mmHg, glucose at 91 mg/dL, heart rate of 78 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 55 with BP of 134/86 mmHg, glucose at 105 mg/dL, heart rate of 72 BPM, and SpO2 at 94%. No diseases reported. | Unhealthy
+Patient aged 23 has BP of 108/70 mmHg, glucose at 83 mg/dL, heart rate of 62 BPM, and SpO2 at 97%. No symptoms or diseases reported. | Healthy
+Patient aged 50 with BP of 140/92 mmHg, glucose at 116 mg/dL, heart rate of 80 BPM, and SpO2 at 93%. Diagnosed with hypertension. | Unhealthy
+Patient aged 35 has BP of 119/78 mmHg, glucose at 92 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 62 with BP of 148/97 mmHg, glucose at 101 mg/dL, heart rate of 86 BPM, and SpO2 at 88%. Diagnosed with hypertension. | Unhealthy
+Patient aged 28 with BP of 113/74 mmHg, glucose at 63 mg/dL, heart rate of 84 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 47 has BP of 128/83 mmHg, glucose at 110 mg/dL, heart rate of 98 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 36 with BP of 120/80 mmHg, glucose at 95 mg/dL, heart rate of 74 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 58 has BP of 144/95 mmHg, glucose at 122 mg/dL, heart rate of 90 BPM, and SpO2 at 89%. Diagnosed with diabetes. | Unhealthy
+Patient aged 22 with BP of 106/68 mmHg, glucose at 87 mg/dL, heart rate of 110 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 41 has BP of 122/80 mmHg, glucose at 94 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 56 with BP of 138/90 mmHg, glucose at 112 mg/dL, heart rate of 78 BPM, and SpO2 at 92%. Diagnosed with prediabetes. | Unhealthy
+Patient aged 32 has BP of 118/77 mmHg, glucose at 89 mg/dL, heart rate of 76 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 64 with BP of 150/98 mmHg, glucose at 99 mg/dL, heart rate of 92 BPM, and SpO2 at 87%. Diagnosed with hypertension. | Unhealthy
+Patient aged 26 with BP of 117/76 mmHg, glucose at 82 mg/dL, heart rate of 56 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 46 has BP of 132/85 mmHg, glucose at 121 mg/dL, heart rate of 94 BPM, and SpO2 at 94%. Diagnosed with diabetes. | Unhealthy
+Patient aged 37 with BP of 121/78 mmHg, glucose at 93 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 54 has BP of 146/96 mmHg, glucose at 104 mg/dL, heart rate of 84 BPM, and SpO2 at 90%. Diagnosed with hypertension. | Unhealthy
+Patient aged 29 with BP of 114/74 mmHg, glucose at 81 mg/dL, heart rate of 100 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 49 has BP of 128/82 mmHg, glucose at 97 mg/dL, heart rate of 72 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 63 with BP of 152/99 mmHg, glucose at 127 mg/dL, heart rate of 94 BPM, and SpO2 at 86%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 34 has BP of 118/77 mmHg, glucose at 90 mg/dL, heart rate of 68 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 52 with BP of 134/87 mmHg, glucose at 102 mg/dL, heart rate of 76 BPM, and SpO2 at 94%. No diseases reported. | Unhealthy
+Patient aged 25 has BP of 112/73 mmHg, glucose at 84 mg/dL, heart rate of 70 BPM, and SpO2 at 97%. No symptoms or diseases reported. | Healthy
+Patient aged 51 with BP of 140/92 mmHg, glucose at 112 mg/dL, heart rate of 86 BPM, and SpO2 at 93%. Diagnosed with hypertension. | Unhealthy
+Patient aged 33 has BP of 120/80 mmHg, glucose at 93 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 60 with BP of 148/97 mmHg, glucose at 119 mg/dL, heart rate of 90 BPM, and SpO2 at 88%. Diagnosed with diabetes. | Unhealthy
+Patient aged 27 with BP of 115/75 mmHg, glucose at 64 mg/dL, heart rate of 82 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 48 has BP of 126/83 mmHg, glucose at 108 mg/dL, heart rate of 98 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 38 with BP of 122/79 mmHg, glucose at 94 mg/dL, heart rate of 76 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 57 has BP of 144/95 mmHg, glucose at 123 mg/dL, heart rate of 88 BPM, and SpO2 at 89%. Diagnosed with hypertension and diabetes. | Unhealthy
+Patient aged 24 with BP of 110/70 mmHg, glucose at 85 mg/dL, heart rate of 108 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 43 has BP of 124/80 mmHg, glucose at 96 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 60 with BP of 138/90 mmHg, glucose at 122 mg/dL, heart rate of 84 BPM, and SpO2 at 91%. Diagnosed with diabetes. | Unhealthy
+Patient aged 30 has BP of 116/75 mmHg, glucose at 91 mg/dL, heart rate of 78 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 54 with BP of 136/87 mmHg, glucose at 104 mg/dL, heart rate of 72 BPM, and SpO2 at 94%. No diseases reported. | Unhealthy
+Patient aged 23 has BP of 108/70 mmHg, glucose at 82 mg/dL, heart rate of 60 BPM, and SpO2 at 97%. No symptoms or diseases reported. | Healthy
+Patient aged 50 with BP of 142/93 mmHg, glucose at 115 mg/dL, heart rate of 82 BPM, and SpO2 at 92%. Diagnosed with hypertension. | Unhealthy
+Patient aged 35 has BP of 119/78 mmHg, glucose at 92 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 61 with BP of 150/98 mmHg, glucose at 100 mg/dL, heart rate of 88 BPM, and SpO2 at 87%. Diagnosed with hypertension. | Unhealthy
+Patient aged 28 with BP of 113/74 mmHg, glucose at 62 mg/dL, heart rate of 86 BPM, and SpO2 at 97%. Diagnosed with hypoglycemia. | Unhealthy
+Patient aged 47 has BP of 130/84 mmHg, glucose at 109 mg/dL, heart rate of 100 BPM, and SpO2 at 95%. No diseases reported. | Unhealthy
+Patient aged 36 with BP of 120/80 mmHg, glucose at 95 mg/dL, heart rate of 74 BPM, and SpO2 at 99%. No symptoms or diseases reported. | Healthy
+Patient aged 58 has BP of 146/96 mmHg, glucose at 121 mg/dL, heart rate of 92 BPM, and SpO2 at 88%. Diagnosed with diabetes. | Unhealthy
+Patient aged 22 with BP of 106/68 mmHg, glucose at 86 mg/dL, heart rate of 112 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 42 has BP of 122/80 mmHg, glucose at 94 mg/dL, heart rate of 72 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 55 with BP of 140/92 mmHg, glucose at 111 mg/dL, heart rate of 80 BPM, and SpO2 at 92%. Diagnosed with prediabetes. | Unhealthy
+Patient aged 32 has BP of 118/77 mmHg, glucose at 89 mg/dL, heart rate of 76 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 63 with BP of 152/99 mmHg, glucose at 98 mg/dL, heart rate of 94 BPM, and SpO2 at 86%. Diagnosed with hypertension. | Unhealthy
+Patient aged 26 with BP of 117/76 mmHg, glucose at 81 mg/dL, heart rate of 54 BPM, and SpO2 at 97%. No diseases reported. | Unhealthy
+Patient aged 45 has BP of 134/86 mmHg, glucose at 120 mg/dL, heart rate of 96 BPM, and SpO2 at 93%. Diagnosed with diabetes. | Unhealthy
+Patient aged 37 with BP of 121/78 mmHg, glucose at 93 mg/dL, heart rate of 74 BPM, and SpO2 at 98%. No symptoms or diseases reported. | Healthy
+Patient aged 56 has BP of 148/97 mmHg, glucose at 103 mg/dL, heart rate of 86 BPM, and SpO2 at 89%. Diagnosed with hypertension. | Unhealthy
+Patient aged 29 with BP of 114/74 mmHg, glucose at 80 mg/dL, heart rate of 102 BPM, and
