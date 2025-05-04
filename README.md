@@ -153,38 +153,24 @@ Place model-related Python files under `/ml-model`.
 ---
 
 
-## ✨ Features
 
-* ✅ Smart Contract Deployment via Hardhat
-* ✅ Medicine Trial Management via FastAPI
-* ✅ Angular UI for interacting with APIs
-* ✅ Upload and analyze trial data
-* ✅ NLP-powered ML module for insights
-* ✅ Decentralized backend support using Ethereum
+### ✅ Step 3: Run Training Script
 
-🔧 Train & Save Health Prediction Model
-Train a machine learning model that classifies patients as Healthy or Unhealthy using clinical data.
-
-✅ Step 3: Run Training Script
-bash
-Copy
-Edit
+```bash
 cd ai\ model/
 python train_health_model.py
+```
+
 This script will:
 
-Generate 10,000 synthetic clinical records
+* Generate 10,000 synthetic clinical records
+* Encode labels and diagnosis categories
+* Train a Random Forest Classifier
+* Save the model to `health_model.pkl`
 
-Encode labels and diagnosis categories
+#### Sample Output:
 
-Train a Random Forest Classifier
-
-Save the model to health_model.pkl
-
-✅ Sample Output
-txt
-Copy
-Edit
+```
 Classification Report:
               precision    recall  f1-score   support
 
@@ -197,40 +183,39 @@ weighted avg       0.95      0.95      0.95      2000
 
 Model saved as 'health_model.pkl'
 Prediction: Unhealthy
-✅ Step 4: Predict with Trained Model
-python
-Copy
-Edit
+```
+
+### ✅ Step 4: Predict with Trained Model
+
+```python
 import joblib
 model = joblib.load('health_model.pkl')
 sample = [[78, 124, 94, 103, 56, 100, 1, 0]]  # Example input
 prediction = model.predict(sample)
 print("Prediction:", "Unhealthy" if prediction[0] == 1 else "Healthy")
-✨ Features
-✅ Smart Contract Deployment via Hardhat
+```
 
-✅ Medicine Trial Management via FastAPI
+![NLP Output](./assets/nlp1.jpg)
+![NLP Output](./assets/nlp2.jpg)
 
-✅ Angular UI for interacting with APIs
-
-✅ Upload and analyze trial data
-
-✅ NLP-powered ML module for insights
-
-✅ Decentralized backend support using Ethereum
-
-📜 License
-This project is licensed under the MIT License.
-
-vbnet
-Copy
-Edit
-
-Let me know if you want to automatically insert this into your actual `README.md` file or want assets/screenshots for any missing parts.
+---
 
 
+## ✨ Features
+
+* ✅ Smart Contract Deployment via Hardhat
+* ✅ Medicine Trial Management via FastAPI
+* ✅ Angular UI for interacting with APIs
+* ✅ Upload and analyze trial data
+* ✅ NLP-powered ML module for insights
+* ✅ Decentralized backend support using Ethereum
+
+---
 
 
+## 📜 License
 
+This project is licensed under the [MIT License](LICENSE).
 
+---
 
