@@ -52,7 +52,6 @@ cd medicine-trial
 
 
 
-![Clone Output](./assets/clone.png)
 
 ---
 
