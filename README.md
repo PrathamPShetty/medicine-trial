@@ -110,7 +110,7 @@ npx ganache-cli --deterministic
 ```
 
 ![Hardhat Output](./assets/ganache.jpg)
-![Hardhat Output](./assets/transaction.jpg)
+![Hardhat Output](./assets/transaction.png)
 
 
 ---
