@@ -62,7 +62,7 @@ pip install -r requirements.txt
 npm install
 ```
 
-![Backend Install Output](medicine-trial/assests/backend.jpg)
+![Backend Install Output](./assets/backend.jpg)
 
 ---
 
