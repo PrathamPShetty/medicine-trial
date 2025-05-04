@@ -145,8 +145,12 @@ nltk.download('punkt')
 ```
 ![punkt Output](./assets/punkt.jpg)
 Place model-related Python files under `/ml-model`.
+## 🧠 NLP Model  (`/ml-model`)
+![pnlpunkt Output](./assets/nlp1.jpg)
+![pnlpunkt Output](./assets/nlp2.jpg)
 
 ---
+
 
 ## ✨ Features
 
