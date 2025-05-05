@@ -44,12 +44,14 @@ medicine-trial/
 
 ### 📦 1. Clone the Repository
 
+
 ```bash
-git clone https://github.com/your-username/medicine-trial.git
+git clone https://github.com/PrathamPShetty/medicine-trial.git
 cd medicine-trial
 ````
 
-![Clone Output](./assets/clone.png)
+
+
 
 ---
 
