@@ -205,6 +205,278 @@ print("Prediction:", "Unhealthy" if prediction[0] == 1 else "Healthy")
 ---
 
 
+
+About Decision tree : Decision trees are a type of supervised learning algorithm that can be used for both classification and regression tasks
+
+Assume this is a classification problem (e.g., predicting if a person buys a product: Yes / No), and we have the following data:
+
+Age Group	Yes	No	Total
+Below 18	2	6	8
+18 to 60	9	5	14
+Above 60	3	3	6
+
+Step-by-step Gini Calculation:
+1. Gini for Below 18:
+𝑝
+𝑦
+𝑒
+𝑠
+=
+2
+8
+=
+0.25
+,
+𝑝
+𝑛
+𝑜
+=
+6
+8
+=
+0.75
+p 
+yes
+​
+ = 
+8
+2
+​
+ =0.25,p 
+no
+​
+ = 
+8
+6
+​
+ =0.75
+𝐺
+𝑖
+𝑛
+𝑖
+=
+1
+−
+(
+0.25
+2
++
+0.75
+2
+)
+=
+1
+−
+(
+0.0625
++
+0.5625
+)
+=
+0.375
+Gini=1−(0.25 
+2
+ +0.75 
+2
+ )=1−(0.0625+0.5625)=0.375
+2. Gini for 18 to 60:
+𝑝
+𝑦
+𝑒
+𝑠
+=
+9
+14
+,
+𝑝
+𝑛
+𝑜
+=
+5
+14
+p 
+yes
+​
+ = 
+14
+9
+​
+ ,p 
+no
+​
+ = 
+14
+5
+​
+ 
+𝐺
+𝑖
+𝑛
+𝑖
+=
+1
+−
+(
+(
+9
+14
+)
+2
++
+(
+5
+14
+)
+2
+)
+=
+1
+−
+(
+0.408
++
+0.128
+)
+≈
+0.464
+Gini=1−(( 
+14
+9
+​
+ ) 
+2
+ +( 
+14
+5
+​
+ ) 
+2
+ )=1−(0.408+0.128)≈0.464
+3. Gini for Above 60:
+𝑝
+𝑦
+𝑒
+𝑠
+=
+3
+6
+=
+0.5
+,
+𝑝
+𝑛
+𝑜
+=
+0.5
+p 
+yes
+​
+ = 
+6
+3
+​
+ =0.5,p 
+no
+​
+ =0.5
+𝐺
+𝑖
+𝑛
+𝑖
+=
+1
+−
+(
+0.5
+2
++
+0.5
+2
+)
+=
+1
+−
+(
+0.25
++
+0.25
+)
+=
+0.5
+Gini=1−(0.5 
+2
+ +0.5 
+2
+ )=1−(0.25+0.25)=0.5
+Final Weighted Gini of the Split:
+𝐺
+𝑖
+𝑛
+𝑖
+𝑠
+𝑝
+𝑙
+𝑖
+𝑡
+=
+8
+28
+(
+0.375
+)
++
+14
+28
+(
+0.464
+)
++
+6
+28
+(
+0.5
+)
+Gini 
+split
+​
+ = 
+28
+8
+​
+ (0.375)+ 
+28
+14
+​
+ (0.464)+ 
+28
+6
+​
+ (0.5)
+=
+0.2857
+×
+0.375
++
+0.5
+×
+0.464
++
+0.2143
+×
+0.5
+=0.2857×0.375+0.5×0.464+0.2143×0.5
+≈
+0.107
++
+0.232
++
+0.107
+=
+0.446
+≈0.107+0.232+0.107=0.446
+✅ Final Answer:
+Weighted Gini Index of the age-based split = 0.446
+
 ## ✨ Features
 
 * ✅ Smart Contract Deployment via Hardhat
