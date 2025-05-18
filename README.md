@@ -9,7 +9,7 @@ A full-stack decentralized application to manage and track medical trials secure
 
 ```
 
-medicine-trial/
+medicine-trial/solidity
 ├── backend/
 │   ├── contracts/
 │   ├── ignition/
