@@ -36,6 +36,17 @@ if 'existing_reports' not in st.session_state:
     st.session_state.existing_reports = []
 if 'processed_reports' not in st.session_state:
     st.session_state.processed_reports = []
+    
+# Add database reset on first run
+if 'first_run' not in st.session_state:
+    st.session_state.first_run = True
+    # Clear database and JSON file
+    st.session_state.existing_reports = []
+    try:
+        with open("medical_reports.json", "w") as f:
+            json.dump([], f)
+    except:
+        pass
 
 # Set page config
 st.set_page_config(
@@ -209,7 +220,7 @@ def detect_bias(new_report, existing_reports):
             "bias_score": 0, 
             "deviations": [],
             "age_group": age_group,
-            "compared_with": compared_with  # Ensure key always exists
+            "compared_with": compared_with
         }
     
     deviations = []
@@ -244,7 +255,7 @@ def detect_bias(new_report, existing_reports):
         "bias_score": round(bias_score, 2),
         "deviations": deviations,
         "age_group": age_group,
-        "compared_with": compared_with  # Ensure key always exists
+        "compared_with": compared_with
     }
 
 def get_param_unit(param):
@@ -279,20 +290,18 @@ def load_reports(filename="medical_reports.json"):
                     return json.load(f)
             else:
                 # File exists but is empty
-                st.warning("Report file is empty. Creating new database.")
-                # Initialize with empty list
-                with open(filename, 'w') as f:
-                    json.dump([], f)
+                return []
         else:
             # File doesn't exist - create it
             with open(filename, 'w') as f:
                 json.dump([], f)
+            return []
     except (json.JSONDecodeError, IOError) as e:
         st.error(f"Error loading reports: {str(e)}. Creating new database.")
         # Create a valid empty JSON file
         with open(filename, 'w') as f:
             json.dump([], f)
-    return []
+        return []
 
 def plot_parameter_comparison(reports):
     """Generate comparison plot for medical parameters"""
@@ -370,11 +379,6 @@ Upload medical reports to detect potential biases by comparing against existing 
 The system analyzes key health parameters and flags significant deviations.
 """)
 
-# Ensure reports file exists
-if not os.path.exists("medical_reports.json"):
-    with open("medical_reports.json", "w") as f:
-        json.dump([], f)
-
 # Load existing reports
 st.session_state.existing_reports = load_reports()
 
@@ -390,6 +394,9 @@ uploaded_files = st.file_uploader(
 if uploaded_files:
     progress_bar = st.progress(0)
     status_text = st.empty()
+    
+    # Reset processed reports for this session
+    st.session_state.processed_reports = []
     
     for i, uploaded_file in enumerate(uploaded_files):
         status_text.text(f"Processing {i+1}/{len(uploaded_files)}: {uploaded_file.name}")
@@ -442,7 +449,7 @@ if uploaded_files:
         col1, col2, col3 = st.columns(3)
         col1.metric("Total Reports Processed", len(st.session_state.processed_reports))
         col2.metric("Average Bias Score", f"{avg_bias:.2f}/1.0")
-        col3.metric("Total Reports in System", len(st.session_state.existing_reports))
+        col3.metric("Total Reports in Database", len(st.session_state.existing_reports))
     
     # Individual report results
     for report in st.session_state.processed_reports:
@@ -492,11 +499,11 @@ if uploaded_files:
     
     # Show raw data
     if st.checkbox("Show raw data"):
-        st.subheader("All Reports Data")
-        st.write(pd.DataFrame(st.session_state.existing_reports))
-    
-    # Reset processed reports for next session
-    st.session_state.processed_reports = []
+        st.subheader("Current Session Reports")
+        st.dataframe(pd.DataFrame(st.session_state.processed_reports))
+        
+        st.subheader("All Reports in Database")
+        st.dataframe(pd.DataFrame(st.session_state.existing_reports))
 else:
     st.info("ℹ️ Please upload medical reports to begin analysis")
 
@@ -521,3 +528,5 @@ if st.sidebar.button("Clear Database"):
     st.session_state.existing_reports = []
     save_reports([])
     st.sidebar.success("Database cleared!")
+    # Also clear processed reports for this session
+    st.session_state.processed_reports = []

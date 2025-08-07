@@ -14,7 +14,9 @@
     "ldl": 110.0,
     "bias_analysis": {
       "bias_score": 0,
-      "deviations": []
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 0
     }
   },
   {
@@ -32,7 +34,9 @@
     "ldl": 100.0,
     "bias_analysis": {
       "bias_score": 0,
-      "deviations": []
+      "deviations": [],
+      "age_group": "Above 60",
+      "compared_with": 0
     }
   },
   {
@@ -150,7 +154,9 @@
     "ldl": 85.0,
     "bias_analysis": {
       "bias_score": 0,
-      "deviations": []
+      "deviations": [],
+      "age_group": "Below 20",
+      "compared_with": 0
     }
   },
   {
@@ -194,158 +200,18 @@
     }
   },
   {
-    "filename": "med1.pdf",
-    "age": 45,
-    "age_group": "20 to 60",
-    "text": "Patient Name: John Doe  \nAge: 45  \nFasting Glucose: 95 mg/dL  \nHbA1c: 5.4%  \nBlood Pressure: 120/78  \nTotal Cholesterol: 185 mg/dL  \nTriglycerides: 150 mg/dL  \nHDL: 50 mg/dL  \nLDL: 110 mg/dL  \n",
-    "glucose_fasting": 95.0,
-    "hba1c": 5.4,
-    "systolic_bp": 120.0,
-    "diastolic_bp": 78.0,
-    "cholesterol": 185.0,
-    "triglycerides": 150.0,
-    "hdl": 50.0,
-    "ldl": 110.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "20 to 60",
-      "compared_with": 4
-    }
-  },
-  {
-    "filename": "med2.pdf",
-    "age": 88,
-    "age_group": "Above 60",
-    "text": "Patient Information:  \nDOB: 02/14/1995  \nFasting Glucose: 88 mg/dL  \nHbA1c: 5.1%  \nBlood Pressure: 122/82  \nTotal Cholesterol: 190 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 55 mg/dL  \nLDL: 100 mg/dL  \n",
-    "glucose_fasting": 88.0,
-    "hba1c": 5.1,
-    "systolic_bp": 122.0,
-    "diastolic_bp": 82.0,
-    "cholesterol": 190.0,
-    "triglycerides": 140.0,
-    "hdl": 55.0,
-    "ldl": 100.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "Above 60",
-      "compared_with": 5
-    }
-  },
-  {
-    "filename": "med3.pdf",
-    "age": 65,
-    "age_group": "Above 60",
-    "text": "Patient: Jane Smith  \nAge: 65 years  \nFasting Glucose: 110 mg/dL  \nHbA1c: 6.2%  \nBlood Pressure: 135/85  \nTotal Cholesterol: 200 mg/dL  \nTriglycerides: 180 mg/dL  \nHDL: 45 mg/dL  \nLDL: 125 mg/dL  \n",
-    "glucose_fasting": 110.0,
-    "hba1c": 6.2,
-    "systolic_bp": 135.0,
-    "diastolic_bp": 85.0,
-    "cholesterol": 200.0,
-    "triglycerides": 180.0,
-    "hdl": 45.0,
-    "ldl": 125.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "Above 60",
-      "compared_with": 6
-    }
-  },
-  {
-    "filename": "med4.pdf",
-    "age": 23,
-    "age_group": "20 to 60",
-    "text": "Patient Age: 23  \nFasting Glucose: 90 mg/dL  \nHbA1c: 5.0%  \nBlood Pressure: 110/70  \nTotal Cholesterol: 175 mg/dL  \nTriglycerides: 130 mg/dL  \nHDL: 60 mg/dL  \nLDL: 90 mg/dL  \n",
-    "glucose_fasting": 90.0,
-    "hba1c": 5.0,
-    "systolic_bp": 110.0,
-    "diastolic_bp": 70.0,
-    "cholesterol": 175.0,
-    "triglycerides": 130.0,
-    "hdl": 60.0,
-    "ldl": 90.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "20 to 60",
-      "compared_with": 5
-    }
-  },
-  {
-    "filename": "med5.pdf",
-    "age": 72,
-    "age_group": "Above 60",
-    "text": "Patient Report  \nAge: 72  \nFasting Glucose: 115 mg/dL  \nHbA1c: 6.5%  \nBlood Pressure: 145/90  \nTotal Cholesterol: 210 mg/dL  \nTriglycerides: 200 mg/dL  \nHDL: 40 mg/dL  \nLDL: 130 mg/dL  \n",
-    "glucose_fasting": 115.0,
-    "hba1c": 6.5,
-    "systolic_bp": 145.0,
-    "diastolic_bp": 90.0,
-    "cholesterol": 210.0,
-    "triglycerides": 200.0,
-    "hdl": 40.0,
-    "ldl": 130.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "Above 60",
-      "compared_with": 7
-    }
-  },
-  {
-    "filename": "med6.pdf",
-    "age": 30,
-    "age_group": "20 to 60",
-    "text": "Name: David Kumar  \nPatient Age: 30 years old  \nFasting Glucose: 100 mg/dL  \nHbA1c: 5.3%  \nBlood Pressure: 118/76  \nTotal Cholesterol: 170 mg/dL  \nTriglycerides: 120 mg/dL  \nHDL: 55 mg/dL  \nLDL: 95 mg/dL  \n",
-    "glucose_fasting": 100.0,
-    "hba1c": 5.3,
-    "systolic_bp": 118.0,
-    "diastolic_bp": 76.0,
-    "cholesterol": 170.0,
-    "triglycerides": 120.0,
-    "hdl": 55.0,
-    "ldl": 95.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "20 to 60",
-      "compared_with": 6
-    }
-  },
-  {
-    "filename": "med7.pdf",
-    "age": 56,
-    "age_group": "20 to 60",
-    "text": "Medical Examination Summary  \nAge: 56  \nFasting Glucose: 105 mg/dL  \nHbA1c: 5.7%  \nBlood Pressure: 130/82  \nTotal Cholesterol: 195 mg/dL  \nTriglycerides: 160 mg/dL  \nHDL: 48 mg/dL  \nLDL: 105 mg/dL  \n",
-    "glucose_fasting": 105.0,
-    "hba1c": 5.7,
-    "systolic_bp": 130.0,
-    "diastolic_bp": 82.0,
-    "cholesterol": 195.0,
-    "triglycerides": 160.0,
-    "hdl": 48.0,
-    "ldl": 105.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "20 to 60",
-      "compared_with": 7
-    }
-  },
-  {
-    "filename": "med8.pdf",
-    "age": 19,
+    "filename": "med11.pdf",
+    "age": 17,
     "age_group": "Below 20",
-    "text": "Patient Profile  \nAge: 19  \nFasting Glucose: 85 mg/dL  \nHbA1c: 4.9%  \nBlood Pressure: 108/68  \nTotal Cholesterol: 160 mg/dL  \nTriglycerides: 110 mg/dL  \nHDL: 65 mg/dL  \nLDL: 85 mg/dL  \n",
+    "text": "Patient Name: Rahul Mehra  \nAge: 17  \nFasting Glucose: 85 mg/dL  \nHbA1c: 4.8%  \nBlood Pressure: 108/68  \nTotal Cholesterol: 160 mg/dL  \nTriglycerides: 95 mg/dL  \nHDL: 70 mg/dL  \nLDL: 80 mg/dL  \n",
     "glucose_fasting": 85.0,
-    "hba1c": 4.9,
+    "hba1c": 4.8,
     "systolic_bp": 108.0,
     "diastolic_bp": 68.0,
     "cholesterol": 160.0,
-    "triglycerides": 110.0,
-    "hdl": 65.0,
-    "ldl": 85.0,
+    "triglycerides": 95.0,
+    "hdl": 70.0,
+    "ldl": 80.0,
     "bias_analysis": {
       "bias_score": 0.0,
       "deviations": [],
@@ -354,18 +220,591 @@
     }
   },
   {
-    "filename": "med9.pdf",
-    "age": 66,
+    "filename": "med12.pdf",
+    "age": 35,
+    "age_group": "20 to 60",
+    "text": "Patient Age: 35  \nFasting Glucose: 108 mg/dL  \nHbA1c: 5.9%  \nBlood Pressure: 125/82  \nTotal Cholesterol: 195 mg/dL  \nTriglycerides: 170 mg/dL  \nHDL: 48 mg/dL  \nLDL: 115 mg/dL  \n",
+    "glucose_fasting": 108.0,
+    "hba1c": 5.9,
+    "systolic_bp": 125.0,
+    "diastolic_bp": 82.0,
+    "cholesterol": 195.0,
+    "triglycerides": 170.0,
+    "hdl": 48.0,
+    "ldl": 115.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 4
+    }
+  },
+  {
+    "filename": "med13.pdf",
+    "age": 68,
     "age_group": "Above 60",
-    "text": "Age: 66  \nFasting Glucose: 118 mg/dL  \nHbA1c: 6.8%  \nBlood Pressure: 140/88  \nTotal Cholesterol: 215 mg/dL  \nTriglycerides: 190 mg/dL  \nHDL: 42 mg/dL  \nLDL: 135 mg/dL  \n",
-    "glucose_fasting": 118.0,
-    "hba1c": 6.8,
-    "systolic_bp": 140.0,
-    "diastolic_bp": 88.0,
-    "cholesterol": 215.0,
-    "triglycerides": 190.0,
+    "text": "Patient Info  \nAge: 68 years  \nFasting Glucose: 135 mg/dL  \nHbA1c: 7.4%  \nBlood Pressure: 150/95  \nTotal Cholesterol: 210 mg/dL  \nTriglycerides: 205 mg/dL  \nHDL: 38 mg/dL  \nLDL: 145 mg/dL  \n",
+    "glucose_fasting": 135.0,
+    "hba1c": 7.4,
+    "systolic_bp": 150.0,
+    "diastolic_bp": 95.0,
+    "cholesterol": 210.0,
+    "triglycerides": 205.0,
+    "hdl": 38.0,
+    "ldl": 145.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "Above 60",
+      "compared_with": 5
+    }
+  },
+  {
+    "filename": "med14.pdf",
+    "age": 50,
+    "age_group": "20 to 60",
+    "text": "Patient Age: 50  \nFasting Glucose: 98 mg/dL  \nHbA1c: 5.2%  \nBlood Pressure: 122/80  \nTotal Cholesterol: 240 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 52 mg/dL  \nLDL: 150 mg/dL  \n",
+    "glucose_fasting": 98.0,
+    "hba1c": 5.2,
+    "systolic_bp": 122.0,
+    "diastolic_bp": 80.0,
+    "cholesterol": 240.0,
+    "triglycerides": 140.0,
+    "hdl": 52.0,
+    "ldl": 150.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 5
+    }
+  },
+  {
+    "filename": "med15.pdf",
+    "age": 28,
+    "age_group": "20 to 60",
+    "text": "Age: 28  \nFasting Glucose: 92 mg/dL  \nHbA1c: 5.1%  \nBlood Pressure: 115/72  \nTotal Cholesterol: 175 mg/dL  \nTriglycerides: 135 mg/dL  \nHDL: 30 mg/dL  \nLDL: 95 mg/dL  \n",
+    "glucose_fasting": 92.0,
+    "hba1c": 5.1,
+    "systolic_bp": 115.0,
+    "diastolic_bp": 72.0,
+    "cholesterol": 175.0,
+    "triglycerides": 135.0,
+    "hdl": 30.0,
+    "ldl": 95.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "hdl",
+          "new_value": 30.0,
+          "group_mean": 52.17,
+          "z_score": -5.2,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 6
+    }
+  },
+  {
+    "filename": "med16.pdf",
+    "age": 60,
+    "age_group": "20 to 60",
+    "text": "Patient Report  \nAge: 60  \nFasting Glucose: 90 mg/dL  \nHbA1c: 5.0%  \nBlood Pressure: 118/78  \nTotal Cholesterol: 180 mg/dL  \nTriglycerides: 130 mg/dL  \nHDL: 52 mg/dL  \nLDL: 100 mg/dL  \n",
+    "glucose_fasting": 90.0,
+    "hba1c": 5.0,
+    "systolic_bp": 118.0,
+    "diastolic_bp": 78.0,
+    "cholesterol": 180.0,
+    "triglycerides": 130.0,
+    "hdl": 52.0,
+    "ldl": 100.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 7
+    }
+  },
+  {
+    "filename": "med17.pdf",
+    "age": 42,
+    "age_group": "20 to 60",
+    "text": "Patient: Mohammed Yusuf  \nAge: 42  \nFasting Glucose: 99 mg/dL  \nHbA1c: 5.4%  \nBlood Pressure: 160/100  \nTotal Cholesterol: 190 mg/dL  \nTriglycerides: 160 mg/dL  \nHDL: 50 mg/dL  \nLDL: 120 mg/dL  \n",
+    "glucose_fasting": 99.0,
+    "hba1c": 5.4,
+    "systolic_bp": 160.0,
+    "diastolic_bp": 100.0,
+    "cholesterol": 190.0,
+    "triglycerides": 160.0,
+    "hdl": 50.0,
+    "ldl": 120.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "systolic_bp",
+          "new_value": 160.0,
+          "group_mean": 119.75,
+          "z_score": 7.04,
+          "unit": "mmHg"
+        },
+        {
+          "parameter": "diastolic_bp",
+          "new_value": 100.0,
+          "group_mean": 77.25,
+          "z_score": 5.53,
+          "unit": "mmHg"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 8
+    }
+  },
+  {
+    "filename": "med18.pdf",
+    "age": 100,
+    "age_group": "Above 60",
+    "text": "DOB: 06/12/1983  \nFasting Glucose: 100 mg/dL  \nHbA1c: 5.3%  \nBlood Pressure: 120/80  \nTotal Cholesterol: 180 mg/dL  \nTriglycerides: 300 mg/dL  \nHDL: 40 mg/dL  \nLDL: 105 mg/dL  \n",
+    "glucose_fasting": 100.0,
+    "hba1c": 5.3,
+    "systolic_bp": 120.0,
+    "diastolic_bp": 80.0,
+    "cholesterol": 180.0,
+    "triglycerides": 300.0,
+    "hdl": 40.0,
+    "ldl": 105.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "triglycerides",
+          "new_value": 300.0,
+          "group_mean": 175.83,
+          "z_score": 4.68,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "Above 60",
+      "compared_with": 6
+    }
+  },
+  {
+    "filename": "med19.pdf",
+    "age": 76,
+    "age_group": "Above 60",
+    "text": "Patient Record  \nAge: 76  \nFasting Glucose: 145 mg/dL  \nHbA1c: 8.0%  \nBlood Pressure: 165/102  \nTotal Cholesterol: 250 mg/dL  \nTriglycerides: 220 mg/dL  \nHDL: 35 mg/dL  \nLDL: 160 mg/dL  \n",
+    "glucose_fasting": 145.0,
+    "hba1c": 8.0,
+    "systolic_bp": 165.0,
+    "diastolic_bp": 102.0,
+    "cholesterol": 250.0,
+    "triglycerides": 220.0,
+    "hdl": 35.0,
+    "ldl": 160.0,
+    "bias_analysis": {
+      "bias_score": 0.75,
+      "deviations": [
+        {
+          "parameter": "glucose_fasting",
+          "new_value": 145.0,
+          "group_mean": 109.71,
+          "z_score": 2.53,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "hba1c",
+          "new_value": 8.0,
+          "group_mean": 6.13,
+          "z_score": 2.41,
+          "unit": "%"
+        },
+        {
+          "parameter": "systolic_bp",
+          "new_value": 165.0,
+          "group_mean": 133.86,
+          "z_score": 2.85,
+          "unit": "mmHg"
+        },
+        {
+          "parameter": "diastolic_bp",
+          "new_value": 102.0,
+          "group_mean": 85.57,
+          "z_score": 3.06,
+          "unit": "mmHg"
+        },
+        {
+          "parameter": "cholesterol",
+          "new_value": 250.0,
+          "group_mean": 198.57,
+          "z_score": 4.04,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "ldl",
+          "new_value": 160.0,
+          "group_mean": 120.0,
+          "z_score": 2.37,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "Above 60",
+      "compared_with": 7
+    }
+  },
+  {
+    "filename": "med20.pdf",
+    "age": 21,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Priya Sharma  \nAge: 21  \nFasting Glucose: 90 mg/dL  \nHbA1c: 5.1%  \nBlood Pressure: 95/60  \nTotal Cholesterol: 170 mg/dL  \nTriglycerides: 115 mg/dL  \nHDL: 60 mg/dL  \nLDL: 85 mg/dL  \n",
+    "glucose_fasting": 90.0,
+    "hba1c": 5.1,
+    "systolic_bp": 95.0,
+    "diastolic_bp": 60.0,
+    "cholesterol": 170.0,
+    "triglycerides": 115.0,
+    "hdl": 60.0,
+    "ldl": 85.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "systolic_bp",
+          "new_value": 95.0,
+          "group_mean": 124.22,
+          "z_score": -2.13,
+          "unit": "mmHg"
+        },
+        {
+          "parameter": "diastolic_bp",
+          "new_value": 60.0,
+          "group_mean": 79.78,
+          "z_score": -2.43,
+          "unit": "mmHg"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 9
+    }
+  },
+  {
+    "filename": "med21.pdf",
+    "age": 39,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 39  \nFasting Glucose: 92 mg/dL  \nHbA1c: 5.3%  \nBlood Pressure: 118/76  \nTotal Cholesterol: 185 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 52 mg/dL  \nLDL: 105 mg/dL  \n",
+    "glucose_fasting": 92.0,
+    "hba1c": 5.3,
+    "systolic_bp": 118.0,
+    "diastolic_bp": 76.0,
+    "cholesterol": 185.0,
+    "triglycerides": 140.0,
+    "hdl": 52.0,
+    "ldl": 105.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 10
+    }
+  },
+  {
+    "filename": "med22.pdf",
+    "age": 39,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 39  \nFasting Glucose: 99 mg/dL  \nHbA1c: 5.7%  \nBlood Pressure: 125/80  \nTotal Cholesterol: 192 mg/dL  \nTriglycerides: 150 mg/dL  \nHDL: 48 mg/dL  \nLDL: 112 mg/dL  \n",
+    "glucose_fasting": 99.0,
+    "hba1c": 5.7,
+    "systolic_bp": 125.0,
+    "diastolic_bp": 80.0,
+    "cholesterol": 192.0,
+    "triglycerides": 150.0,
+    "hdl": 48.0,
+    "ldl": 112.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 11
+    }
+  },
+  {
+    "filename": "med23.pdf",
+    "age": 40,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 40  \nFasting Glucose: 106 mg/dL  \nHbA1c: 6.1%  \nBlood Pressure: 130/85  \nTotal Cholesterol: 198 mg/dL  \nTriglycerides: 160 mg/dL  \nHDL: 45 mg/dL  \nLDL: 120 mg/dL  \n",
+    "glucose_fasting": 106.0,
+    "hba1c": 6.1,
+    "systolic_bp": 130.0,
+    "diastolic_bp": 85.0,
+    "cholesterol": 198.0,
+    "triglycerides": 160.0,
+    "hdl": 45.0,
+    "ldl": 120.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "hba1c",
+          "new_value": 6.1,
+          "group_mean": 5.34,
+          "z_score": 2.7,
+          "unit": "%"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 12
+    }
+  },
+  {
+    "filename": "med24.pdf",
+    "age": 40,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 40  \nFasting Glucose: 112 mg/dL  \nHbA1c: 6.4%  \nBlood Pressure: 138/90  \nTotal Cholesterol: 205 mg/dL  \nTriglycerides: 170 mg/dL  \nHDL: 42 mg/dL  \nLDL: 128 mg/dL  \n",
+    "glucose_fasting": 112.0,
+    "hba1c": 6.4,
+    "systolic_bp": 138.0,
+    "diastolic_bp": 90.0,
+    "cholesterol": 205.0,
+    "triglycerides": 170.0,
     "hdl": 42.0,
+    "ldl": 128.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "glucose_fasting",
+          "new_value": 112.0,
+          "group_mean": 97.23,
+          "z_score": 2.42,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "hba1c",
+          "new_value": 6.4,
+          "group_mean": 5.4,
+          "z_score": 2.96,
+          "unit": "%"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 13
+    }
+  },
+  {
+    "filename": "med25.pdf",
+    "age": 41,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 41  \nFasting Glucose: 120 mg/dL  \nHbA1c: 6.8%  \nBlood Pressure: 145/95  \nTotal Cholesterol: 210 mg/dL  \nTriglycerides: 180 mg/dL  \nHDL: 40 mg/dL  \nLDL: 135 mg/dL  \n",
+    "glucose_fasting": 120.0,
+    "hba1c": 6.8,
+    "systolic_bp": 145.0,
+    "diastolic_bp": 95.0,
+    "cholesterol": 210.0,
+    "triglycerides": 180.0,
+    "hdl": 40.0,
     "ldl": 135.0,
+    "bias_analysis": {
+      "bias_score": 0.38,
+      "deviations": [
+        {
+          "parameter": "glucose_fasting",
+          "new_value": 120.0,
+          "group_mean": 98.29,
+          "z_score": 3.1,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "hba1c",
+          "new_value": 6.8,
+          "group_mean": 5.47,
+          "z_score": 3.2,
+          "unit": "%"
+        },
+        {
+          "parameter": "triglycerides",
+          "new_value": 180.0,
+          "group_mean": 145.0,
+          "z_score": 2.05,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 14
+    }
+  },
+  {
+    "filename": "med26.pdf",
+    "age": 25,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Karan Patel  \nAge: 25  \nFasting Glucose: 85 mg/dL  \nHbA1c: 4.9%  \nBlood Pressure: 110/70  \nTotal Cholesterol: 165 mg/dL  \nTriglycerides: 120 mg/dL  \nHDL: 65 mg/dL  \nLDL: 90 mg/dL  \n",
+    "glucose_fasting": 85.0,
+    "hba1c": 4.9,
+    "systolic_bp": 110.0,
+    "diastolic_bp": 70.0,
+    "cholesterol": 165.0,
+    "triglycerides": 120.0,
+    "hdl": 65.0,
+    "ldl": 90.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "hdl",
+          "new_value": 65.0,
+          "group_mean": 48.8,
+          "z_score": 2.2,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 15
+    }
+  },
+  {
+    "filename": "med27.pdf",
+    "age": 34,
+    "age_group": "20 to 60",
+    "text": "Patient: Neha Batra  \nAge: 34  \nFasting Glucose: 100 mg/dL  \nBlood Pressure: 125/85  \nHDL: 50 mg/dL  \nLDL: 105 mg/dL  \n",
+    "glucose_fasting": 100.0,
+    "hba1c": null,
+    "systolic_bp": 125.0,
+    "diastolic_bp": 85.0,
+    "cholesterol": null,
+    "triglycerides": null,
+    "hdl": 50.0,
+    "ldl": 105.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 16
+    }
+  },
+  {
+    "filename": "med29.pdf",
+    "age": 47,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Farhan Qureshi  \nAge: 47  \nFasting Glucose: 98 mg/dL  \nHbA1c: 5.3%  \nBlood Pressure: 120/80  \nTotal Cholesterol: 200 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 48 mg/dL  \nLDL: 165 mg/dL  \n",
+    "glucose_fasting": 98.0,
+    "hba1c": 5.3,
+    "systolic_bp": 120.0,
+    "diastolic_bp": 80.0,
+    "cholesterol": 200.0,
+    "triglycerides": 140.0,
+    "hdl": 48.0,
+    "ldl": 165.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "ldl",
+          "new_value": 165.0,
+          "group_mean": 109.41,
+          "z_score": 3.3,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 17
+    }
+  },
+  {
+    "filename": "med30.pdf",
+    "age": 51,
+    "age_group": "20 to 60",
+    "text": "Patient: Vinita Joshi  \nAge: 51  \nFasting Glucose: 130 mg/dL  \nHbA1c: 6.9%  \nBlood Pressure: 122/78  \nTotal Cholesterol: 180 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 54 mg/dL  \nLDL: 100 mg/dL  \n",
+    "glucose_fasting": 130.0,
+    "hba1c": 6.9,
+    "systolic_bp": 122.0,
+    "diastolic_bp": 78.0,
+    "cholesterol": 180.0,
+    "triglycerides": 140.0,
+    "hdl": 54.0,
+    "ldl": 100.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "glucose_fasting",
+          "new_value": 130.0,
+          "group_mean": 98.83,
+          "z_score": 3.62,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "hba1c",
+          "new_value": 6.9,
+          "group_mean": 5.51,
+          "z_score": 2.71,
+          "unit": "%"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 18
+    }
+  },
+  {
+    "filename": "med31.pdf",
+    "age": 29,
+    "age_group": "20 to 60",
+    "text": "Report Summary:  \nAge: 29  \nParameters:  \n- Glucose (fasting): 95 mg/dL  \n- HbA1c: 5.6%  \n- BP: 117/75  \n- Cholesterol total: 175 mg/dL  \n- Triglycerides: 135 mg/dL  \n- HDL: 55 mg/dL  \n- LDL: 98 mg/dL  \n",
+    "glucose_fasting": null,
+    "hba1c": 5.6,
+    "systolic_bp": null,
+    "diastolic_bp": null,
+    "cholesterol": null,
+    "triglycerides": 135.0,
+    "hdl": 55.0,
+    "ldl": 98.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 19
+    }
+  },
+  {
+    "filename": "med32.pdf",
+    "age": 53,
+    "age_group": "20 to 60",
+    "text": "Patient Age: 53  \nFasting Glucose: 94 mg/dL  \nHbA1c: 5.4%  \nBlood Pressure: 130/82  \nTotal Cholesterol: 190 mg/dL  \nTriglycerides: 155 mg/dL  \nHDL: 28 mg/dL  \nLDL: 120 mg/dL  \n",
+    "glucose_fasting": 94.0,
+    "hba1c": 5.4,
+    "systolic_bp": 130.0,
+    "diastolic_bp": 82.0,
+    "cholesterol": 190.0,
+    "triglycerides": 155.0,
+    "hdl": 28.0,
+    "ldl": 120.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "hdl",
+          "new_value": 28.0,
+          "group_mean": 50.2,
+          "z_score": -2.98,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 20
+    }
+  },
+  {
+    "filename": "med33.pdf",
+    "age": 110,
+    "age_group": "Above 60",
+    "text": "Name: Ramesh Kulkarni  \nDOB: 09/12/1965  \nFasting Glucose: 110 mg/dL  \nHbA1c: 6.1%  \nBlood Pressure: 138/88  \nTotal Cholesterol: 200 mg/dL  \nTriglycerides: 160 mg/dL  \nHDL: 43 mg/dL  \nLDL: 125 mg/dL  \n",
+    "glucose_fasting": 110.0,
+    "hba1c": 6.1,
+    "systolic_bp": 138.0,
+    "diastolic_bp": 88.0,
+    "cholesterol": 200.0,
+    "triglycerides": 160.0,
+    "hdl": 43.0,
+    "ldl": 125.0,
     "bias_analysis": {
       "bias_score": 0.0,
       "deviations": [],
@@ -374,23 +813,148 @@
     }
   },
   {
-    "filename": "med10.pdf",
-    "age": 102,
+    "filename": "med34.pdf",
+    "age": 69,
     "age_group": "Above 60",
-    "text": "Patient Details  \nDOB: 05/30/1978  \nFasting Glucose: 102 mg/dL  \nHbA1c: 5.6%  \nBlood Pressure: 125/79  \nTotal Cholesterol: 185 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 52 mg/dL  \nLDL: 100 mg/dL  \n",
-    "glucose_fasting": 102.0,
-    "hba1c": 5.6,
-    "systolic_bp": 125.0,
-    "diastolic_bp": 79.0,
-    "cholesterol": 185.0,
-    "triglycerides": 140.0,
-    "hdl": 52.0,
-    "ldl": 100.0,
+    "text": "Patient Name: Surinder Kaur  \nAge: 69  \nFasting Glucose: 150 mg/dL  \nHbA1c: 8.2%  \nBlood Pressure: 170/105  \nTotal Cholesterol: 260 mg/dL  \nTriglycerides: 250 mg/dL  \nHDL: 30 mg/dL  \nLDL: 180 mg/dL  \n",
+    "glucose_fasting": 150.0,
+    "hba1c": 8.2,
+    "systolic_bp": 170.0,
+    "diastolic_bp": 105.0,
+    "cholesterol": 260.0,
+    "triglycerides": 250.0,
+    "hdl": 30.0,
+    "ldl": 180.0,
+    "bias_analysis": {
+      "bias_score": 0.88,
+      "deviations": [
+        {
+          "parameter": "glucose_fasting",
+          "new_value": 150.0,
+          "group_mean": 113.67,
+          "z_score": 2.19,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "hba1c",
+          "new_value": 8.2,
+          "group_mean": 6.33,
+          "z_score": 2.06,
+          "unit": "%"
+        },
+        {
+          "parameter": "systolic_bp",
+          "new_value": 170.0,
+          "group_mean": 137.78,
+          "z_score": 2.36,
+          "unit": "mmHg"
+        },
+        {
+          "parameter": "diastolic_bp",
+          "new_value": 105.0,
+          "group_mean": 87.67,
+          "z_score": 2.48,
+          "unit": "mmHg"
+        },
+        {
+          "parameter": "cholesterol",
+          "new_value": 260.0,
+          "group_mean": 204.44,
+          "z_score": 2.83,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "hdl",
+          "new_value": 30.0,
+          "group_mean": 43.33,
+          "z_score": -2.18,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "ldl",
+          "new_value": 180.0,
+          "group_mean": 125.0,
+          "z_score": 2.83,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "Above 60",
+      "compared_with": 9
+    }
+  },
+  {
+    "filename": "med35.pdf",
+    "age": 110,
+    "age_group": "Above 60",
+    "text": "Name: Ramesh Kulkarni  \nDOB: 09/12/1965  \nFasting Glucose: 110 mg/dL  \nHbA1c: 6.1%  \nBlood Pressure: 138/88  \nTotal Cholesterol: 200 mg/dL  \nTriglycerides: 160 mg/dL  \nHDL: 43 mg/dL  \nLDL: 125 mg/dL  \n",
+    "glucose_fasting": 110.0,
+    "hba1c": 6.1,
+    "systolic_bp": 138.0,
+    "diastolic_bp": 88.0,
+    "cholesterol": 200.0,
+    "triglycerides": 160.0,
+    "hdl": 43.0,
+    "ldl": 125.0,
     "bias_analysis": {
       "bias_score": 0.0,
       "deviations": [],
       "age_group": "Above 60",
-      "compared_with": 9
+      "compared_with": 10
+    }
+  },
+  {
+    "filename": "med36.pdf",
+    "age": 69,
+    "age_group": "Above 60",
+    "text": "Patient Name: Surinder Kaur  \nAge: 69  \nFasting Glucose: 150 mg/dL  \nHbA1c: 8.2%  \nBlood Pressure: 170/105  \nTotal Cholesterol: 260 mg/dL  \nTriglycerides: 250 mg/dL  \nHDL: 30 mg/dL  \nLDL: 180 mg/dL  \n",
+    "glucose_fasting": 150.0,
+    "hba1c": 8.2,
+    "systolic_bp": 170.0,
+    "diastolic_bp": 105.0,
+    "cholesterol": 260.0,
+    "triglycerides": 250.0,
+    "hdl": 30.0,
+    "ldl": 180.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "cholesterol",
+          "new_value": 260.0,
+          "group_mean": 209.09,
+          "z_score": 2.12,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "ldl",
+          "new_value": 180.0,
+          "group_mean": 130.0,
+          "z_score": 2.11,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "Above 60",
+      "compared_with": 11
+    }
+  },
+  {
+    "filename": "med37.pdf",
+    "age": 42,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Ritu Sharma  \nAge: 42  \nFasting Glucose: 104 mg/dL  \nHbA1c: 5.6%  \nTotal Cholesterol: 190 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 50 mg/dL  \nLDL: 110 mg/dL  \n",
+    "glucose_fasting": 104.0,
+    "hba1c": 5.6,
+    "systolic_bp": null,
+    "diastolic_bp": null,
+    "cholesterol": 190.0,
+    "triglycerides": 140.0,
+    "hdl": 50.0,
+    "ldl": 110.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 21
     }
   },
   {
@@ -410,7 +974,7 @@
       "bias_score": 0.0,
       "deviations": [],
       "age_group": "20 to 60",
-      "compared_with": 8
+      "compared_with": 22
     }
   },
   {
@@ -426,66 +990,6 @@
     "triglycerides": 140.0,
     "hdl": 55.0,
     "ldl": 100.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "Above 60",
-      "compared_with": 10
-    }
-  },
-  {
-    "filename": "med3.pdf",
-    "age": 65,
-    "age_group": "Above 60",
-    "text": "Patient: Jane Smith  \nAge: 65 years  \nFasting Glucose: 110 mg/dL  \nHbA1c: 6.2%  \nBlood Pressure: 135/85  \nTotal Cholesterol: 200 mg/dL  \nTriglycerides: 180 mg/dL  \nHDL: 45 mg/dL  \nLDL: 125 mg/dL  \n",
-    "glucose_fasting": 110.0,
-    "hba1c": 6.2,
-    "systolic_bp": 135.0,
-    "diastolic_bp": 85.0,
-    "cholesterol": 200.0,
-    "triglycerides": 180.0,
-    "hdl": 45.0,
-    "ldl": 125.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "Above 60",
-      "compared_with": 11
-    }
-  },
-  {
-    "filename": "med4.pdf",
-    "age": 23,
-    "age_group": "20 to 60",
-    "text": "Patient Age: 23  \nFasting Glucose: 90 mg/dL  \nHbA1c: 5.0%  \nBlood Pressure: 110/70  \nTotal Cholesterol: 175 mg/dL  \nTriglycerides: 130 mg/dL  \nHDL: 60 mg/dL  \nLDL: 90 mg/dL  \n",
-    "glucose_fasting": 90.0,
-    "hba1c": 5.0,
-    "systolic_bp": 110.0,
-    "diastolic_bp": 70.0,
-    "cholesterol": 175.0,
-    "triglycerides": 130.0,
-    "hdl": 60.0,
-    "ldl": 90.0,
-    "bias_analysis": {
-      "bias_score": 0.0,
-      "deviations": [],
-      "age_group": "20 to 60",
-      "compared_with": 9
-    }
-  },
-  {
-    "filename": "med5.pdf",
-    "age": 72,
-    "age_group": "Above 60",
-    "text": "Patient Report  \nAge: 72  \nFasting Glucose: 115 mg/dL  \nHbA1c: 6.5%  \nBlood Pressure: 145/90  \nTotal Cholesterol: 210 mg/dL  \nTriglycerides: 200 mg/dL  \nHDL: 40 mg/dL  \nLDL: 130 mg/dL  \n",
-    "glucose_fasting": 115.0,
-    "hba1c": 6.5,
-    "systolic_bp": 145.0,
-    "diastolic_bp": 90.0,
-    "cholesterol": 210.0,
-    "triglycerides": 200.0,
-    "hdl": 40.0,
-    "ldl": 130.0,
     "bias_analysis": {
       "bias_score": 0.0,
       "deviations": [],
@@ -494,6 +998,66 @@
     }
   },
   {
+    "filename": "med3.pdf",
+    "age": 65,
+    "age_group": "Above 60",
+    "text": "Patient: Jane Smith  \nAge: 65 years  \nFasting Glucose: 110 mg/dL  \nHbA1c: 6.2%  \nBlood Pressure: 135/85  \nTotal Cholesterol: 200 mg/dL  \nTriglycerides: 180 mg/dL  \nHDL: 45 mg/dL  \nLDL: 125 mg/dL  \n",
+    "glucose_fasting": 110.0,
+    "hba1c": 6.2,
+    "systolic_bp": 135.0,
+    "diastolic_bp": 85.0,
+    "cholesterol": 200.0,
+    "triglycerides": 180.0,
+    "hdl": 45.0,
+    "ldl": 125.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "Above 60",
+      "compared_with": 13
+    }
+  },
+  {
+    "filename": "med4.pdf",
+    "age": 23,
+    "age_group": "20 to 60",
+    "text": "Patient Age: 23  \nFasting Glucose: 90 mg/dL  \nHbA1c: 5.0%  \nBlood Pressure: 110/70  \nTotal Cholesterol: 175 mg/dL  \nTriglycerides: 130 mg/dL  \nHDL: 60 mg/dL  \nLDL: 90 mg/dL  \n",
+    "glucose_fasting": 90.0,
+    "hba1c": 5.0,
+    "systolic_bp": 110.0,
+    "diastolic_bp": 70.0,
+    "cholesterol": 175.0,
+    "triglycerides": 130.0,
+    "hdl": 60.0,
+    "ldl": 90.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 23
+    }
+  },
+  {
+    "filename": "med5.pdf",
+    "age": 72,
+    "age_group": "Above 60",
+    "text": "Patient Report  \nAge: 72  \nFasting Glucose: 115 mg/dL  \nHbA1c: 6.5%  \nBlood Pressure: 145/90  \nTotal Cholesterol: 210 mg/dL  \nTriglycerides: 200 mg/dL  \nHDL: 40 mg/dL  \nLDL: 130 mg/dL  \n",
+    "glucose_fasting": 115.0,
+    "hba1c": 6.5,
+    "systolic_bp": 145.0,
+    "diastolic_bp": 90.0,
+    "cholesterol": 210.0,
+    "triglycerides": 200.0,
+    "hdl": 40.0,
+    "ldl": 130.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "Above 60",
+      "compared_with": 14
+    }
+  },
+  {
     "filename": "med6.pdf",
     "age": 30,
     "age_group": "20 to 60",
@@ -510,7 +1074,7 @@
       "bias_score": 0.0,
       "deviations": [],
       "age_group": "20 to 60",
-      "compared_with": 10
+      "compared_with": 24
     }
   },
   {
@@ -530,7 +1094,7 @@
       "bias_score": 0.0,
       "deviations": [],
       "age_group": "20 to 60",
-      "compared_with": 11
+      "compared_with": 25
     }
   },
   {
@@ -570,7 +1134,7 @@
       "bias_score": 0.0,
       "deviations": [],
       "age_group": "Above 60",
-      "compared_with": 13
+      "compared_with": 15
     }
   },
   {
@@ -590,7 +1154,656 @@
       "bias_score": 0.0,
       "deviations": [],
       "age_group": "Above 60",
-      "compared_with": 14
+      "compared_with": 16
+    }
+  },
+  {
+    "filename": "med11.pdf",
+    "age": 17,
+    "age_group": "Below 20",
+    "text": "Patient Name: Rahul Mehra  \nAge: 17  \nFasting Glucose: 85 mg/dL  \nHbA1c: 4.8%  \nBlood Pressure: 108/68  \nTotal Cholesterol: 160 mg/dL  \nTriglycerides: 95 mg/dL  \nHDL: 70 mg/dL  \nLDL: 80 mg/dL  \n",
+    "glucose_fasting": 85.0,
+    "hba1c": 4.8,
+    "systolic_bp": 108.0,
+    "diastolic_bp": 68.0,
+    "cholesterol": 160.0,
+    "triglycerides": 95.0,
+    "hdl": 70.0,
+    "ldl": 80.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "Below 20",
+      "compared_with": 3
+    }
+  },
+  {
+    "filename": "med12.pdf",
+    "age": 35,
+    "age_group": "20 to 60",
+    "text": "Patient Age: 35  \nFasting Glucose: 108 mg/dL  \nHbA1c: 5.9%  \nBlood Pressure: 125/82  \nTotal Cholesterol: 195 mg/dL  \nTriglycerides: 170 mg/dL  \nHDL: 48 mg/dL  \nLDL: 115 mg/dL  \n",
+    "glucose_fasting": 108.0,
+    "hba1c": 5.9,
+    "systolic_bp": 125.0,
+    "diastolic_bp": 82.0,
+    "cholesterol": 195.0,
+    "triglycerides": 170.0,
+    "hdl": 48.0,
+    "ldl": 115.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 26
+    }
+  },
+  {
+    "filename": "med13.pdf",
+    "age": 68,
+    "age_group": "Above 60",
+    "text": "Patient Info  \nAge: 68 years  \nFasting Glucose: 135 mg/dL  \nHbA1c: 7.4%  \nBlood Pressure: 150/95  \nTotal Cholesterol: 210 mg/dL  \nTriglycerides: 205 mg/dL  \nHDL: 38 mg/dL  \nLDL: 145 mg/dL  \n",
+    "glucose_fasting": 135.0,
+    "hba1c": 7.4,
+    "systolic_bp": 150.0,
+    "diastolic_bp": 95.0,
+    "cholesterol": 210.0,
+    "triglycerides": 205.0,
+    "hdl": 38.0,
+    "ldl": 145.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "Above 60",
+      "compared_with": 17
+    }
+  },
+  {
+    "filename": "med14.pdf",
+    "age": 50,
+    "age_group": "20 to 60",
+    "text": "Patient Age: 50  \nFasting Glucose: 98 mg/dL  \nHbA1c: 5.2%  \nBlood Pressure: 122/80  \nTotal Cholesterol: 240 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 52 mg/dL  \nLDL: 150 mg/dL  \n",
+    "glucose_fasting": 98.0,
+    "hba1c": 5.2,
+    "systolic_bp": 122.0,
+    "diastolic_bp": 80.0,
+    "cholesterol": 240.0,
+    "triglycerides": 140.0,
+    "hdl": 52.0,
+    "ldl": 150.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "cholesterol",
+          "new_value": 240.0,
+          "group_mean": 188.4,
+          "z_score": 3.3,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "ldl",
+          "new_value": 150.0,
+          "group_mean": 109.93,
+          "z_score": 2.21,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 27
+    }
+  },
+  {
+    "filename": "med15.pdf",
+    "age": 28,
+    "age_group": "20 to 60",
+    "text": "Age: 28  \nFasting Glucose: 92 mg/dL  \nHbA1c: 5.1%  \nBlood Pressure: 115/72  \nTotal Cholesterol: 175 mg/dL  \nTriglycerides: 135 mg/dL  \nHDL: 30 mg/dL  \nLDL: 95 mg/dL  \n",
+    "glucose_fasting": 92.0,
+    "hba1c": 5.1,
+    "systolic_bp": 115.0,
+    "diastolic_bp": 72.0,
+    "cholesterol": 175.0,
+    "triglycerides": 135.0,
+    "hdl": 30.0,
+    "ldl": 95.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "hdl",
+          "new_value": 30.0,
+          "group_mean": 49.82,
+          "z_score": -2.52,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 28
+    }
+  },
+  {
+    "filename": "med16.pdf",
+    "age": 60,
+    "age_group": "20 to 60",
+    "text": "Patient Report  \nAge: 60  \nFasting Glucose: 90 mg/dL  \nHbA1c: 5.0%  \nBlood Pressure: 118/78  \nTotal Cholesterol: 180 mg/dL  \nTriglycerides: 130 mg/dL  \nHDL: 52 mg/dL  \nLDL: 100 mg/dL  \n",
+    "glucose_fasting": 90.0,
+    "hba1c": 5.0,
+    "systolic_bp": 118.0,
+    "diastolic_bp": 78.0,
+    "cholesterol": 180.0,
+    "triglycerides": 130.0,
+    "hdl": 52.0,
+    "ldl": 100.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 29
+    }
+  },
+  {
+    "filename": "med17.pdf",
+    "age": 42,
+    "age_group": "20 to 60",
+    "text": "Patient: Mohammed Yusuf  \nAge: 42  \nFasting Glucose: 99 mg/dL  \nHbA1c: 5.4%  \nBlood Pressure: 160/100  \nTotal Cholesterol: 190 mg/dL  \nTriglycerides: 160 mg/dL  \nHDL: 50 mg/dL  \nLDL: 120 mg/dL  \n",
+    "glucose_fasting": 99.0,
+    "hba1c": 5.4,
+    "systolic_bp": 160.0,
+    "diastolic_bp": 100.0,
+    "cholesterol": 190.0,
+    "triglycerides": 160.0,
+    "hdl": 50.0,
+    "ldl": 120.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "systolic_bp",
+          "new_value": 160.0,
+          "group_mean": 122.64,
+          "z_score": 3.18,
+          "unit": "mmHg"
+        },
+        {
+          "parameter": "diastolic_bp",
+          "new_value": 100.0,
+          "group_mean": 79.18,
+          "z_score": 2.69,
+          "unit": "mmHg"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 30
+    }
+  },
+  {
+    "filename": "med18.pdf",
+    "age": 100,
+    "age_group": "Above 60",
+    "text": "DOB: 06/12/1983  \nFasting Glucose: 100 mg/dL  \nHbA1c: 5.3%  \nBlood Pressure: 120/80  \nTotal Cholesterol: 180 mg/dL  \nTriglycerides: 300 mg/dL  \nHDL: 40 mg/dL  \nLDL: 105 mg/dL  \n",
+    "glucose_fasting": 100.0,
+    "hba1c": 5.3,
+    "systolic_bp": 120.0,
+    "diastolic_bp": 80.0,
+    "cholesterol": 180.0,
+    "triglycerides": 300.0,
+    "hdl": 40.0,
+    "ldl": 105.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "triglycerides",
+          "new_value": 300.0,
+          "group_mean": 191.67,
+          "z_score": 2.54,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "Above 60",
+      "compared_with": 18
+    }
+  },
+  {
+    "filename": "med19.pdf",
+    "age": 76,
+    "age_group": "Above 60",
+    "text": "Patient Record  \nAge: 76  \nFasting Glucose: 145 mg/dL  \nHbA1c: 8.0%  \nBlood Pressure: 165/102  \nTotal Cholesterol: 250 mg/dL  \nTriglycerides: 220 mg/dL  \nHDL: 35 mg/dL  \nLDL: 160 mg/dL  \n",
+    "glucose_fasting": 145.0,
+    "hba1c": 8.0,
+    "systolic_bp": 165.0,
+    "diastolic_bp": 102.0,
+    "cholesterol": 250.0,
+    "triglycerides": 220.0,
+    "hdl": 35.0,
+    "ldl": 160.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "Above 60",
+      "compared_with": 19
+    }
+  },
+  {
+    "filename": "med20.pdf",
+    "age": 21,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Priya Sharma  \nAge: 21  \nFasting Glucose: 90 mg/dL  \nHbA1c: 5.1%  \nBlood Pressure: 95/60  \nTotal Cholesterol: 170 mg/dL  \nTriglycerides: 115 mg/dL  \nHDL: 60 mg/dL  \nLDL: 85 mg/dL  \n",
+    "glucose_fasting": 90.0,
+    "hba1c": 5.1,
+    "systolic_bp": 95.0,
+    "diastolic_bp": 60.0,
+    "cholesterol": 170.0,
+    "triglycerides": 115.0,
+    "hdl": 60.0,
+    "ldl": 85.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "systolic_bp",
+          "new_value": 95.0,
+          "group_mean": 123.93,
+          "z_score": -2.16,
+          "unit": "mmHg"
+        },
+        {
+          "parameter": "diastolic_bp",
+          "new_value": 60.0,
+          "group_mean": 79.9,
+          "z_score": -2.34,
+          "unit": "mmHg"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 31
+    }
+  },
+  {
+    "filename": "med21.pdf",
+    "age": 39,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 39  \nFasting Glucose: 92 mg/dL  \nHbA1c: 5.3%  \nBlood Pressure: 118/76  \nTotal Cholesterol: 185 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 52 mg/dL  \nLDL: 105 mg/dL  \n",
+    "glucose_fasting": 92.0,
+    "hba1c": 5.3,
+    "systolic_bp": 118.0,
+    "diastolic_bp": 76.0,
+    "cholesterol": 185.0,
+    "triglycerides": 140.0,
+    "hdl": 52.0,
+    "ldl": 105.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 32
+    }
+  },
+  {
+    "filename": "med22.pdf",
+    "age": 39,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 39  \nFasting Glucose: 99 mg/dL  \nHbA1c: 5.7%  \nBlood Pressure: 125/80  \nTotal Cholesterol: 192 mg/dL  \nTriglycerides: 150 mg/dL  \nHDL: 48 mg/dL  \nLDL: 112 mg/dL  \n",
+    "glucose_fasting": 99.0,
+    "hba1c": 5.7,
+    "systolic_bp": 125.0,
+    "diastolic_bp": 80.0,
+    "cholesterol": 192.0,
+    "triglycerides": 150.0,
+    "hdl": 48.0,
+    "ldl": 112.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 33
+    }
+  },
+  {
+    "filename": "med23.pdf",
+    "age": 40,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 40  \nFasting Glucose: 106 mg/dL  \nHbA1c: 6.1%  \nBlood Pressure: 130/85  \nTotal Cholesterol: 198 mg/dL  \nTriglycerides: 160 mg/dL  \nHDL: 45 mg/dL  \nLDL: 120 mg/dL  \n",
+    "glucose_fasting": 106.0,
+    "hba1c": 6.1,
+    "systolic_bp": 130.0,
+    "diastolic_bp": 85.0,
+    "cholesterol": 198.0,
+    "triglycerides": 160.0,
+    "hdl": 45.0,
+    "ldl": 120.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 34
+    }
+  },
+  {
+    "filename": "med24.pdf",
+    "age": 40,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 40  \nFasting Glucose: 112 mg/dL  \nHbA1c: 6.4%  \nBlood Pressure: 138/90  \nTotal Cholesterol: 205 mg/dL  \nTriglycerides: 170 mg/dL  \nHDL: 42 mg/dL  \nLDL: 128 mg/dL  \n",
+    "glucose_fasting": 112.0,
+    "hba1c": 6.4,
+    "systolic_bp": 138.0,
+    "diastolic_bp": 90.0,
+    "cholesterol": 205.0,
+    "triglycerides": 170.0,
+    "hdl": 42.0,
+    "ldl": 128.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 35
+    }
+  },
+  {
+    "filename": "med25.pdf",
+    "age": 41,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Arjun Sinha  \nAge: 41  \nFasting Glucose: 120 mg/dL  \nHbA1c: 6.8%  \nBlood Pressure: 145/95  \nTotal Cholesterol: 210 mg/dL  \nTriglycerides: 180 mg/dL  \nHDL: 40 mg/dL  \nLDL: 135 mg/dL  \n",
+    "glucose_fasting": 120.0,
+    "hba1c": 6.8,
+    "systolic_bp": 145.0,
+    "diastolic_bp": 95.0,
+    "cholesterol": 210.0,
+    "triglycerides": 180.0,
+    "hdl": 40.0,
+    "ldl": 135.0,
+    "bias_analysis": {
+      "bias_score": 0.38,
+      "deviations": [
+        {
+          "parameter": "glucose_fasting",
+          "new_value": 120.0,
+          "group_mean": 99.51,
+          "z_score": 2.2,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "hba1c",
+          "new_value": 6.8,
+          "group_mean": 5.53,
+          "z_score": 2.51,
+          "unit": "%"
+        },
+        {
+          "parameter": "triglycerides",
+          "new_value": 180.0,
+          "group_mean": 144.86,
+          "z_score": 2.05,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 36
+    }
+  },
+  {
+    "filename": "med26.pdf",
+    "age": 25,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Karan Patel  \nAge: 25  \nFasting Glucose: 85 mg/dL  \nHbA1c: 4.9%  \nBlood Pressure: 110/70  \nTotal Cholesterol: 165 mg/dL  \nTriglycerides: 120 mg/dL  \nHDL: 65 mg/dL  \nLDL: 90 mg/dL  \n",
+    "glucose_fasting": 85.0,
+    "hba1c": 4.9,
+    "systolic_bp": 110.0,
+    "diastolic_bp": 70.0,
+    "cholesterol": 165.0,
+    "triglycerides": 120.0,
+    "hdl": 65.0,
+    "ldl": 90.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 37
+    }
+  },
+  {
+    "filename": "med27.pdf",
+    "age": 34,
+    "age_group": "20 to 60",
+    "text": "Patient: Neha Batra  \nAge: 34  \nFasting Glucose: 100 mg/dL  \nBlood Pressure: 125/85  \nHDL: 50 mg/dL  \nLDL: 105 mg/dL  \n",
+    "glucose_fasting": 100.0,
+    "hba1c": null,
+    "systolic_bp": 125.0,
+    "diastolic_bp": 85.0,
+    "cholesterol": null,
+    "triglycerides": null,
+    "hdl": 50.0,
+    "ldl": 105.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 38
+    }
+  },
+  {
+    "filename": "med29.pdf",
+    "age": 47,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Farhan Qureshi  \nAge: 47  \nFasting Glucose: 98 mg/dL  \nHbA1c: 5.3%  \nBlood Pressure: 120/80  \nTotal Cholesterol: 200 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 48 mg/dL  \nLDL: 165 mg/dL  \n",
+    "glucose_fasting": 98.0,
+    "hba1c": 5.3,
+    "systolic_bp": 120.0,
+    "diastolic_bp": 80.0,
+    "cholesterol": 200.0,
+    "triglycerides": 140.0,
+    "hdl": 48.0,
+    "ldl": 165.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "ldl",
+          "new_value": 165.0,
+          "group_mean": 110.59,
+          "z_score": 2.98,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 39
+    }
+  },
+  {
+    "filename": "med30.pdf",
+    "age": 51,
+    "age_group": "20 to 60",
+    "text": "Patient: Vinita Joshi  \nAge: 51  \nFasting Glucose: 130 mg/dL  \nHbA1c: 6.9%  \nBlood Pressure: 122/78  \nTotal Cholesterol: 180 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 54 mg/dL  \nLDL: 100 mg/dL  \n",
+    "glucose_fasting": 130.0,
+    "hba1c": 6.9,
+    "systolic_bp": 122.0,
+    "diastolic_bp": 78.0,
+    "cholesterol": 180.0,
+    "triglycerides": 140.0,
+    "hdl": 54.0,
+    "ldl": 100.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "glucose_fasting",
+          "new_value": 130.0,
+          "group_mean": 99.64,
+          "z_score": 3.13,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "hba1c",
+          "new_value": 6.9,
+          "group_mean": 5.54,
+          "z_score": 2.53,
+          "unit": "%"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 40
+    }
+  },
+  {
+    "filename": "med31.pdf",
+    "age": 29,
+    "age_group": "20 to 60",
+    "text": "Report Summary:  \nAge: 29  \nParameters:  \n- Glucose (fasting): 95 mg/dL  \n- HbA1c: 5.6%  \n- BP: 117/75  \n- Cholesterol total: 175 mg/dL  \n- Triglycerides: 135 mg/dL  \n- HDL: 55 mg/dL  \n- LDL: 98 mg/dL  \n",
+    "glucose_fasting": null,
+    "hba1c": 5.6,
+    "systolic_bp": null,
+    "diastolic_bp": null,
+    "cholesterol": null,
+    "triglycerides": 135.0,
+    "hdl": 55.0,
+    "ldl": 98.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 41
+    }
+  },
+  {
+    "filename": "med32.pdf",
+    "age": 53,
+    "age_group": "20 to 60",
+    "text": "Patient Age: 53  \nFasting Glucose: 94 mg/dL  \nHbA1c: 5.4%  \nBlood Pressure: 130/82  \nTotal Cholesterol: 190 mg/dL  \nTriglycerides: 155 mg/dL  \nHDL: 28 mg/dL  \nLDL: 120 mg/dL  \n",
+    "glucose_fasting": 94.0,
+    "hba1c": 5.4,
+    "systolic_bp": 130.0,
+    "diastolic_bp": 82.0,
+    "cholesterol": 190.0,
+    "triglycerides": 155.0,
+    "hdl": 28.0,
+    "ldl": 120.0,
+    "bias_analysis": {
+      "bias_score": 0.12,
+      "deviations": [
+        {
+          "parameter": "hdl",
+          "new_value": 28.0,
+          "group_mean": 49.67,
+          "z_score": -2.7,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "20 to 60",
+      "compared_with": 42
+    }
+  },
+  {
+    "filename": "med33.pdf",
+    "age": 110,
+    "age_group": "Above 60",
+    "text": "Name: Ramesh Kulkarni  \nDOB: 09/12/1965  \nFasting Glucose: 110 mg/dL  \nHbA1c: 6.1%  \nBlood Pressure: 138/88  \nTotal Cholesterol: 200 mg/dL  \nTriglycerides: 160 mg/dL  \nHDL: 43 mg/dL  \nLDL: 125 mg/dL  \n",
+    "glucose_fasting": 110.0,
+    "hba1c": 6.1,
+    "systolic_bp": 138.0,
+    "diastolic_bp": 88.0,
+    "cholesterol": 200.0,
+    "triglycerides": 160.0,
+    "hdl": 43.0,
+    "ldl": 125.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "Above 60",
+      "compared_with": 20
+    }
+  },
+  {
+    "filename": "med34.pdf",
+    "age": 69,
+    "age_group": "Above 60",
+    "text": "Patient Name: Surinder Kaur  \nAge: 69  \nFasting Glucose: 150 mg/dL  \nHbA1c: 8.2%  \nBlood Pressure: 170/105  \nTotal Cholesterol: 260 mg/dL  \nTriglycerides: 250 mg/dL  \nHDL: 30 mg/dL  \nLDL: 180 mg/dL  \n",
+    "glucose_fasting": 150.0,
+    "hba1c": 8.2,
+    "systolic_bp": 170.0,
+    "diastolic_bp": 105.0,
+    "cholesterol": 260.0,
+    "triglycerides": 250.0,
+    "hdl": 30.0,
+    "ldl": 180.0,
+    "bias_analysis": {
+      "bias_score": 0.25,
+      "deviations": [
+        {
+          "parameter": "cholesterol",
+          "new_value": 260.0,
+          "group_mean": 209.52,
+          "z_score": 2.06,
+          "unit": "mg/dL"
+        },
+        {
+          "parameter": "ldl",
+          "new_value": 180.0,
+          "group_mean": 130.24,
+          "z_score": 2.06,
+          "unit": "mg/dL"
+        }
+      ],
+      "age_group": "Above 60",
+      "compared_with": 21
+    }
+  },
+  {
+    "filename": "med35.pdf",
+    "age": 110,
+    "age_group": "Above 60",
+    "text": "Name: Ramesh Kulkarni  \nDOB: 09/12/1965  \nFasting Glucose: 110 mg/dL  \nHbA1c: 6.1%  \nBlood Pressure: 138/88  \nTotal Cholesterol: 200 mg/dL  \nTriglycerides: 160 mg/dL  \nHDL: 43 mg/dL  \nLDL: 125 mg/dL  \n",
+    "glucose_fasting": 110.0,
+    "hba1c": 6.1,
+    "systolic_bp": 138.0,
+    "diastolic_bp": 88.0,
+    "cholesterol": 200.0,
+    "triglycerides": 160.0,
+    "hdl": 43.0,
+    "ldl": 125.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "Above 60",
+      "compared_with": 22
+    }
+  },
+  {
+    "filename": "med36.pdf",
+    "age": 69,
+    "age_group": "Above 60",
+    "text": "Patient Name: Surinder Kaur  \nAge: 69  \nFasting Glucose: 150 mg/dL  \nHbA1c: 8.2%  \nBlood Pressure: 170/105  \nTotal Cholesterol: 260 mg/dL  \nTriglycerides: 250 mg/dL  \nHDL: 30 mg/dL  \nLDL: 180 mg/dL  \n",
+    "glucose_fasting": 150.0,
+    "hba1c": 8.2,
+    "systolic_bp": 170.0,
+    "diastolic_bp": 105.0,
+    "cholesterol": 260.0,
+    "triglycerides": 250.0,
+    "hdl": 30.0,
+    "ldl": 180.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "Above 60",
+      "compared_with": 23
+    }
+  },
+  {
+    "filename": "med37.pdf",
+    "age": 42,
+    "age_group": "20 to 60",
+    "text": "Patient Name: Ritu Sharma  \nAge: 42  \nFasting Glucose: 104 mg/dL  \nHbA1c: 5.6%  \nTotal Cholesterol: 190 mg/dL  \nTriglycerides: 140 mg/dL  \nHDL: 50 mg/dL  \nLDL: 110 mg/dL  \n",
+    "glucose_fasting": 104.0,
+    "hba1c": 5.6,
+    "systolic_bp": null,
+    "diastolic_bp": null,
+    "cholesterol": 190.0,
+    "triglycerides": 140.0,
+    "hdl": 50.0,
+    "ldl": 110.0,
+    "bias_analysis": {
+      "bias_score": 0.0,
+      "deviations": [],
+      "age_group": "20 to 60",
+      "compared_with": 43
     }
   }
 ]
